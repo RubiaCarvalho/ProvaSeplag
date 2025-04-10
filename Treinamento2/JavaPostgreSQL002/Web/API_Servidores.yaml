@@ -1,0 +1,118 @@
+openapi: 3.0.0
+info:
+  title: "API_Servidores"
+  description: "API_Servidores"
+  version: "20250401143530"
+servers:
+  - url: http://localhost:8080/Treinamento2JavaPostgreSQL/API_Servidores
+paths:
+  /Insert:
+    post:
+      tags:
+        - API_Servidores  
+      operationId: "API_Servidores.Insert"
+      summary: "Insert"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/InsertInput"
+      
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/GeneXus.Common.Messages_Message"  
+
+        404:
+          description: "Not found"
+
+  /Update:
+    post:
+      tags:
+        - API_Servidores  
+      operationId: "API_Servidores.Update"
+      summary: "Update"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateInput"
+      
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/GeneXus.Common.Messages_Message"  
+
+        404:
+          description: "Not found"
+
+components:
+  schemas:
+    InsertInput:  
+      properties:
+        sdt_lotacao:
+          description: "Sdt_Lotacao"
+          $ref: "#/components/schemas/Sdt_Lotacao"
+
+    UpdateInput:  
+      properties:
+        sdt_lotacao:
+          description: "Sdt_Lotacao"
+          $ref: "#/components/schemas/Sdt_Lotacao"
+  
+    Sdt_Lotacao:
+      properties:
+        lot_id:
+          description: "lot_id"
+          type: "integer"
+          format: "int64"
+        pes_id:
+          description: "pes_id"
+          type: "integer"
+          format: "int64"
+        unid_id:
+          description: "unid_id"
+          type: "integer"
+          format: "int64"
+        lot_data_lotacao:
+          description: "lot_data_lotacao"
+          type: "string"
+          format: "date"
+        lot_data_remocao:
+          description: "lot_data_remocao"
+          type: "string"
+          format: "date"
+        lot_portaria:
+          description: "lot_portaria"
+          type: "string"
+
+
+
+    GeneXus.Common.Messages_Message:
+      properties:
+        Id:
+          description: "Id"
+          type: "string"
+        Type:
+          description: "Type"
+          type: "integer"
+          format: "int32"
+        Description:
+          description: "Description"
+          type: "string"
+
+
+
+ 

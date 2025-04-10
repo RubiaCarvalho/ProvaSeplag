@@ -1,0 +1,478 @@
+spec_i([ mnproc,2,'DP_Get_Lotacao','DP_Get_Lotacao',0,por,'18_0_11-185416' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 4,[ [ 4,many ] ],[],[],[ [ [ 4 ],[ 19,17,6,4,5,18 ] ] ],[ [ [ 4 ],[] ] ],[ -5 ],'ILOTACAO',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+cond_constraint_i(2,[ [ t(5,2),t(=,10),t('Ds_get_lotacao_3_lot_id',23) ],[ 5 ],[ t('.NOT.',8),t('null(',1),t('Ds_get_lotacao_3_lot_id',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(4,2),t(=,10),t('Ds_get_lotacao_4_pes_id',23) ],[ 4 ],[ t('.NOT.',8),t('null(',1),t('Ds_get_lotacao_4_pes_id',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(6,2),t(=,10),t('Ds_get_lotacao_5_unid_id',23) ],[ 6 ],[ t('.NOT.',8),t('null(',1),t('Ds_get_lotacao_5_unid_id',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(17,2),t(=,10),t('Ds_get_lotacao_6_lot_data_lotacao',23) ],[ 17 ],[ t('.NOT.',8),t('null(',1),t('Ds_get_lotacao_6_lot_data_lotacao',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(19,2),t(=,10),t('Ds_get_lotacao_8_lot_portaria',23) ],[ 19 ],[ t('.NOT.',8),t('null(',1),t('Ds_get_lotacao_8_lot_portaria',23),t(')',4) ],[] ]).
+ 
+ 
+level_option_i(2,server_paging,[ y,[] ]).
+level_option_i(2,lvl_paging,[ [ t('Pagenumber',23) ],[ t('Pagesize',23) ] ]).
+ 
+ta_i(2,[ [ [ 4,19 ],[ 4,17 ],[ 4,6 ],[ 4,4 ],[ 4,5 ],[ 4,18 ] ] ]).
+ 
+las_i(2,[ [ 19,17,6,4,5,18 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'POSTGRESQL_EXTENSIONS','')).
+rule_i(0,datastore(1,'POSTGRESQL_VERSION','8_3')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','java:/jdbc/treinamento')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','-1')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',admin)).
+rule_i(0,datastore(1,'USER_ID',postgres)).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','5432')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME',treinamento)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','org.postgresql.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',15)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop(gxtest_ignoreForTestCoverage,'0')).
+rule_i(0,prop('ObjectVisibility','KnowledgeBase')).
+rule_i(0,prop('FullyQualifiedName','DP_Get_Lotacao')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OutputCollectionName','DP_Get_Lotacao')).
+rule_i(0,prop('OutputCollection','0')).
+rule_i(0,prop('OutputSDT',o(26,'Sdt_Lotacao'))).
+rule_i(0,prop(idINFER_SDT,idINFER_STRUCTURE_NO)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Theme',o(102,'Treinamento2'))).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','DP_Get_Lotacao')).
+rule_i(0,prop('ObjName','DP_Get_Lotacao')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Atualizar"','5' ]) ],[],[],[])).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Lot_id','Pes_id','Unid_id','Lot_data_lotacao','Lot_data_remocao','Lot_portaria','Pagenumber','Pagesize','Gxm2rootcol' ],[])).
+rule_i(0,parmio([ [ 'Lot_id',in ],[ 'Pes_id',in ],[ 'Unid_id',in ],[ 'Lot_data_lotacao',in ],[ 'Lot_data_remocao',in ],[ 'Lot_portaria',in ],[ 'Pagenumber',in ],[ 'Pagesize',in ],[ 'Gxm2rootcol',out ] ])).
+ 
+a_i(1,2,t,4,[],[ [],'ILOTACAO',[] ]).
+ 
+v_i(t,i,1,[]).
+v_i(t,o,1,19).
+v_i(t,o,1,17).
+v_i(t,o,1,6).
+v_i(t,o,1,4).
+v_i(t,o,1,5).
+v_i(t,o,1,18).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(5,[ lot_id,int,8,0,'ZZZZZZZ9',0,lot_id,'',0 ]).
+attri_i(4,[ pes_id,int,8,0,'ZZZZZZZ9',0,pes_id,'',0 ]).
+attri_i(6,[ unid_id,int,8,0,'ZZZZZZZ9',0,unid_id,'',0 ]).
+attri_i(17,[ lot_data_lotacao,date,8,0,'99/99/99',0,lot_data_lotacao,'',0 ]).
+attri_i(18,[ lot_data_remocao,date,8,0,'99/99/99',0,lot_data_remocao,'',0 ]).
+attri_i(19,[ lot_portaria,svchar,100,0,'',0,lot_portaria,'',0 ]).
+attri_i('Ds_get_lotacao_8_lot_portaria',[ 'Ds_get_lotacao_8_lot_portaria',svchar,100,0,'',0,'Lot_portaria','',22 ]).
+attri_i('Ds_get_lotacao_7_lot_data_remocao',[ 'Ds_get_lotacao_7_lot_data_remocao',date,8,0,'99/99/99',0,'Lot_data_remocao','',21 ]).
+attri_i('Ds_get_lotacao_6_lot_data_lotacao',[ 'Ds_get_lotacao_6_lot_data_lotacao',date,8,0,'99/99/99',0,'Lot_data_lotacao','',20 ]).
+attri_i('Ds_get_lotacao_5_unid_id',[ 'Ds_get_lotacao_5_unid_id',int,8,0,'ZZZZZZZ9',0,'Unid_id','',19 ]).
+attri_i('Ds_get_lotacao_4_pes_id',[ 'Ds_get_lotacao_4_pes_id',int,8,0,'ZZZZZZZ9',0,'Pes_id','',18 ]).
+attri_i('Ds_get_lotacao_3_lot_id',[ 'Ds_get_lotacao_3_lot_id',int,8,0,'ZZZZZZZ9',0,'Lot_id','',17 ]).
+attri_i('Gxm1sdt_lotacao',[ 'Gxm1sdt_lotacao',o('Sdt_Lotacao.Sdt_LotacaoItem'),0,0,'',0,'Gxm1sdt_lotacao','',15 ]).
+attri_i('Gxm2rootcol',[ 'Gxm2rootcol',o(objectcollection('Sdt_Lotacao.Sdt_LotacaoItem')),0,0,'',0,'Gxm2rootcol','',14 ]).
+attri_i('Lot_portaria',[ lot_portaria,svchar,100,0,'',0,lot_portaria,'',13 ]).
+attri_i('Lot_data_remocao',[ lot_data_remocao,date,8,0,'99/99/99',0,lot_data_remocao,'',12 ]).
+attri_i('Lot_data_lotacao',[ lot_data_lotacao,date,8,0,'99/99/99',0,lot_data_lotacao,'',11 ]).
+attri_i('Unid_id',[ unid_id,int,8,0,'ZZZZZZZ9',0,unid_id,'',10 ]).
+attri_i('Pes_id',[ pes_id,int,8,0,'ZZZZZZZ9',0,pes_id,'',9 ]).
+attri_i('Pagenumber',[ 'PageNumber',int,4,0,'ZZZ9',0,'Page Number','',8 ]).
+attri_i('Pagesize',[ 'PageSize',int,4,0,'ZZZ9',0,'Page Size','',7 ]).
+attri_i('Sdt_lotacao',[ sdt_lotacao,o(objectcollection('Sdt_Lotacao.Sdt_LotacaoItem')),0,0,'',0,sdt_lotacao,'',6 ]).
+attri_i('Lot_id',[ lot_id,int,8,0,'ZZZZZZZ9',0,lot_id,'',5 ]).
+ 
+table_i(4,[ lotacao,[ 5,4,6,17,18,19 ],lotacao,lotacao ]).
+ 
+index_i(4,[ 'ILOTACAO',u,[ 5 ],'Ilotacao' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(96,[ 'Id' ]).
+ 
+ 
+break_i(2,nvg,1,[ -5 ],[ [ 19,18,17,6,4,5 ],[ 5,4,6,17,19 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,3).
+b_group_i(1,2,nvg,2,3,3).
+b_group_i(2,1,lit,0,4,6).
+b_group_i(1,3,lit,0,13,0).
+ 
+b_line_i([ 2,1 ],1,1,cmd,3,[ t('',107,3,0),t('Ds_get_lotacao_3_lot_id',23,0,0),t(=,10,0,0),t('Lot_id',23,0,80) ]).
+b_line_i([ 2,2 ],1,1,cmd,3,[ t('',107,3,0),t('Ds_get_lotacao_4_pes_id',23,0,0),t(=,10,0,0),t('Pes_id',23,0,88) ]).
+b_line_i([ 2,3 ],1,1,cmd,3,[ t('',107,3,0),t('Ds_get_lotacao_5_unid_id',23,0,0),t(=,10,0,0),t('Unid_id',23,0,96) ]).
+b_line_i([ 2,4 ],1,1,cmd,3,[ t('',107,3,0),t('Ds_get_lotacao_6_lot_data_lotacao',23,0,0),t(=,10,0,0),t('Lot_data_lotacao',23,0,105) ]).
+b_line_i([ 2,5 ],1,1,cmd,3,[ t('',107,3,0),t('Ds_get_lotacao_7_lot_data_remocao',23,0,0),t(=,10,0,0),t('Lot_data_remocao',23,0,123) ]).
+b_line_i([ 2,6 ],1,1,cmd,3,[ t('',107,3,0),t('Ds_get_lotacao_8_lot_portaria',23,0,0),t(=,10,0,0),t('Lot_portaria',23,0,141) ]).
+b_line_i(3,2,1,cmd,4,[ t('',121,3,0) ]).
+b_line_i([ 3,3 ],2,1,cmd,3,[ t('',107,3,0),t('Gxm1sdt_lotacao',23,3,0),t(=,10,3,0),t([ 'Sdt_Lotacao.Sdt_LotacaoItem',[ t('(',0,3,0),t(')',4,3,0) ],n ],46,3,0) ]).
+b_line_i([ 3,4 ],2,1,cmd,3,[ t('',107,3,0),t([ t('Gxm2rootcol',23,3,0),t('add(',1,3,0) ],31,3,0),t('Gxm1sdt_lotacao',23,3,0),t(')',4,3,0) ]).
+b_line_i(6,2,1,cmd,6,[ t('',107,5,0),t([ t('Gxm1sdt_lotacao',23,6,0),t('Lot_id',3,6,0) ],29,6,0),t(=,10,6,0),t(5,2,6,0) ]).
+b_line_i(7,2,1,cmd,6,[ t('',107,6,0),t([ t('Gxm1sdt_lotacao',23,6,0),t('Pes_id',3,6,0) ],29,6,0),t(=,10,6,0),t(4,2,6,0) ]).
+b_line_i(8,2,1,cmd,6,[ t('',107,7,0),t([ t('Gxm1sdt_lotacao',23,6,0),t('Unid_id',3,6,0) ],29,6,0),t(=,10,6,0),t(6,2,6,0) ]).
+b_line_i(9,2,1,cmd,6,[ t('',107,8,0),t([ t('Gxm1sdt_lotacao',23,6,0),t('Lot_data_lotacao',3,6,0) ],29,6,0),t(=,10,6,0),t(17,2,6,0) ]).
+b_line_i(10,2,1,cmd,6,[ t('',107,9,0),t([ t('Gxm1sdt_lotacao',23,6,0),t('Lot_data_remocao',3,6,0) ],29,6,0),t(=,10,6,0),t(18,2,6,0) ]).
+b_line_i(11,2,1,cmd,6,[ t('',107,10,0),t([ t('Gxm1sdt_lotacao',23,6,0),t('Lot_portaria',3,6,0) ],29,6,0),t(=,10,6,0),t(19,2,6,0) ]).
+b_line_i(12,2,1,cmd,6,[ t('',128,11,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(42,1).
+ 
+att_prop_i(2,19,'ExternalName',lot_portaria,d).
+att_prop_i(2,19,'ExternalNamespace','Treinamento2',d).
+att_prop_i(2,19,'EmptyAsNull','Yes',d).
+att_prop_i(2,19,idBasedOn,'',d).
+att_prop_i(2,19,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,19,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,19,'AttRegEx','',d).
+att_prop_i(2,19,'AttValidationFailedMsg','',d).
+att_prop_i(2,19,'DownloadOffline','0',d).
+att_prop_i(2,19,'VarServiceExtName','',d).
+att_prop_i(2,19,'FullName',lot_portaria,v).
+att_prop_i(2,18,'ExternalName',lot_data_remocao,d).
+att_prop_i(2,18,'ExternalNamespace','Treinamento2',d).
+att_prop_i(2,18,'EmptyAsNull','Yes',d).
+att_prop_i(2,18,idBasedOn,'',d).
+att_prop_i(2,18,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,18,'AttRegEx','',d).
+att_prop_i(2,18,'AttValidationFailedMsg','',d).
+att_prop_i(2,18,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,18,'DownloadOffline','0',d).
+att_prop_i(2,18,'VarServiceExtName','',d).
+att_prop_i(2,18,'FullName',lot_data_remocao,v).
+att_prop_i(2,17,'ExternalName',lot_data_lotacao,d).
+att_prop_i(2,17,'ExternalNamespace','Treinamento2',d).
+att_prop_i(2,17,'EmptyAsNull','Yes',d).
+att_prop_i(2,17,idBasedOn,'',d).
+att_prop_i(2,17,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,17,'AttRegEx','',d).
+att_prop_i(2,17,'AttValidationFailedMsg','',d).
+att_prop_i(2,17,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,17,'DownloadOffline','0',d).
+att_prop_i(2,17,'VarServiceExtName','',d).
+att_prop_i(2,17,'FullName',lot_data_lotacao,v).
+att_prop_i(2,6,'ExternalName',unid_id,d).
+att_prop_i(2,6,'ExternalNamespace','Treinamento2',d).
+att_prop_i(2,6,'EmptyAsNull','Yes',d).
+att_prop_i(2,6,idBasedOn,96,v).
+att_prop_i(2,6,'AUTONUMBER','-1',d).
+att_prop_i(2,6,'AUTONUMBER_START','1',d).
+att_prop_i(2,6,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,6,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,6,'AttRegEx','',d).
+att_prop_i(2,6,'AttValidationFailedMsg','',d).
+att_prop_i(2,6,'DownloadOffline','0',d).
+att_prop_i(2,6,'VarServiceExtName','',d).
+att_prop_i(2,6,'FullName',unid_id,v).
+att_prop_i(2,4,'ExternalName',pes_id,d).
+att_prop_i(2,4,'ExternalNamespace','Treinamento2',d).
+att_prop_i(2,4,'EmptyAsNull','Yes',d).
+att_prop_i(2,4,idBasedOn,96,v).
+att_prop_i(2,4,'AUTONUMBER','-1',d).
+att_prop_i(2,4,'AUTONUMBER_START','1',d).
+att_prop_i(2,4,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,4,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,4,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,4,'AttRegEx','',d).
+att_prop_i(2,4,'AttValidationFailedMsg','',d).
+att_prop_i(2,4,'DownloadOffline','0',d).
+att_prop_i(2,4,'VarServiceExtName','',d).
+att_prop_i(2,4,'FullName',pes_id,v).
+att_prop_i(2,5,'ExternalName',lot_id,d).
+att_prop_i(2,5,'ExternalNamespace','Treinamento2',d).
+att_prop_i(2,5,'EmptyAsNull','Yes',d).
+att_prop_i(2,5,idBasedOn,96,v).
+att_prop_i(2,5,'AUTONUMBER','-1',d).
+att_prop_i(2,5,'AUTONUMBER_START','1',d).
+att_prop_i(2,5,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,5,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,5,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,5,'AttRegEx','',d).
+att_prop_i(2,5,'AttValidationFailedMsg','',d).
+att_prop_i(2,5,'DownloadOffline','0',d).
+att_prop_i(2,5,'VarServiceExtName','',d).
+att_prop_i(2,5,'FullName',lot_id,v).
+ 
+ 
+tbl_att_prop_i(2,4,5,'AllowNulls',n).
+tbl_att_prop_i(2,4,5,'AUTONUMBER',y).
+tbl_att_prop_i(2,4,4,'AllowNulls',n).
+tbl_att_prop_i(2,4,6,'AllowNulls',n).
+ 
+var_prop_i(2,'Lot_id',idBasedOn,'',v).
+var_prop_i(2,'Pes_id',idBasedOn,'',v).
+var_prop_i(2,'Unid_id',idBasedOn,'',v).
+var_prop_i(2,'Lot_data_lotacao',idBasedOn,'',v).
+var_prop_i(2,'Lot_data_remocao',idBasedOn,'',v).
+var_prop_i(2,'Lot_portaria',idBasedOn,'',v).
+var_prop_i(2,'Lot_id',idBasedOn,'',v).
+var_prop_i(2,'Pes_id',idBasedOn,'',v).
+var_prop_i(2,'Unid_id',idBasedOn,'',v).
+var_prop_i(2,'Lot_data_lotacao',idBasedOn,'',v).
+var_prop_i(2,'Lot_data_remocao',idBasedOn,'',v).
+var_prop_i(2,'Lot_portaria',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,62,0 ],name,'Sdt_Lotacao').
+struct_dt_i([ 26,62,0 ],namespace,'Treinamento2').
+struct_dt_i([ 26,62,0 ],'ObjName','Sdt_Lotacao').
+struct_dt_i([ 26,62,0 ],'ObjDesc','Sdt_Lotacao').
+struct_dt_i([ 26,62,0 ],'ExternalName','Sdt_Lotacao').
+struct_dt_i([ 26,62,0 ],'ExternalNamespace','Treinamento2').
+struct_dt_i([ 26,62,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,62,0 ],collection,'True').
+struct_dt_i([ 26,62,0 ],datatype,[ 26,62,92 ]).
+struct_dt_i([ 26,62,0 ],'CollectionItemName','Sdt_LotacaoItem').
+struct_dt_i([ 26,62,0 ],'XmlName','').
+struct_dt_i([ 26,62,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,62,0 ],'XmlNamespace','').
+struct_dt_i([ 26,62,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,62,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,62,0 ],'JsonName','').
+struct_dt_i([ 26,62,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,62,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,62,92 ],name,'Sdt_LotacaoItem').
+struct_dt_i([ 26,62,92 ],namespace,'Treinamento2.Sdt_Lotacao').
+struct_dt_i([ 26,62,0 ],fullname,'Sdt_Lotacao').
+struct_dt_i([ 26,62,92 ],fullname,'Sdt_Lotacao.Sdt_LotacaoItem').
+struct_dt_i([ 26,62,0 ],camelname,'Sdt_lotacao').
+struct_dt_i([ 26,62,92 ],camelname,'Sdt_lotacaoitem').
+ 
+struct_dt_elem_i([ 26,62,92 ],1,name,'Lot_id').
+struct_dt_elem_i([ 26,62,92 ],1,camelname,lot_id).
+struct_dt_elem_i([ 26,62,92 ],1,basedon,96).
+struct_dt_elem_i([ 26,62,92 ],1,length,8).
+struct_dt_elem_i([ 26,62,92 ],1,decimals,0).
+struct_dt_elem_i([ 26,62,92 ],1,sign,0).
+struct_dt_elem_i([ 26,62,92 ],1,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,62,92 ],1,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,62,92 ],1,collection,'False').
+struct_dt_elem_i([ 26,62,92 ],1,'ExternalName',lot_id).
+struct_dt_elem_i([ 26,62,92 ],1,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,62,92 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,62,92 ],1,'XmlName','').
+struct_dt_elem_i([ 26,62,92 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,62,92 ],1,soaptype,'').
+struct_dt_elem_i([ 26,62,92 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,62,92 ],1,'JsonName','').
+struct_dt_elem_i([ 26,62,92 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,62,92 ],2,name,'Pes_id').
+struct_dt_elem_i([ 26,62,92 ],2,camelname,pes_id).
+struct_dt_elem_i([ 26,62,92 ],2,basedon,96).
+struct_dt_elem_i([ 26,62,92 ],2,length,8).
+struct_dt_elem_i([ 26,62,92 ],2,decimals,0).
+struct_dt_elem_i([ 26,62,92 ],2,sign,0).
+struct_dt_elem_i([ 26,62,92 ],2,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,62,92 ],2,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,62,92 ],2,collection,'False').
+struct_dt_elem_i([ 26,62,92 ],2,'ExternalName',pes_id).
+struct_dt_elem_i([ 26,62,92 ],2,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,62,92 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,62,92 ],2,'XmlName','').
+struct_dt_elem_i([ 26,62,92 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,62,92 ],2,soaptype,'').
+struct_dt_elem_i([ 26,62,92 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,62,92 ],2,'JsonName','').
+struct_dt_elem_i([ 26,62,92 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,62,92 ],3,name,'Unid_id').
+struct_dt_elem_i([ 26,62,92 ],3,camelname,unid_id).
+struct_dt_elem_i([ 26,62,92 ],3,basedon,96).
+struct_dt_elem_i([ 26,62,92 ],3,length,8).
+struct_dt_elem_i([ 26,62,92 ],3,decimals,0).
+struct_dt_elem_i([ 26,62,92 ],3,sign,0).
+struct_dt_elem_i([ 26,62,92 ],3,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,62,92 ],3,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,62,92 ],3,collection,'False').
+struct_dt_elem_i([ 26,62,92 ],3,'ExternalName',unid_id).
+struct_dt_elem_i([ 26,62,92 ],3,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,62,92 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,62,92 ],3,'XmlName','').
+struct_dt_elem_i([ 26,62,92 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,62,92 ],3,soaptype,'').
+struct_dt_elem_i([ 26,62,92 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,62,92 ],3,'JsonName','').
+struct_dt_elem_i([ 26,62,92 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,62,92 ],4,name,'Lot_data_lotacao').
+struct_dt_elem_i([ 26,62,92 ],4,camelname,lot_data_lotacao).
+struct_dt_elem_i([ 26,62,92 ],4,length,8).
+struct_dt_elem_i([ 26,62,92 ],4,decimals,0).
+struct_dt_elem_i([ 26,62,92 ],4,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 26,62,92 ],4,pic,'99/99/99').
+struct_dt_elem_i([ 26,62,92 ],4,collection,'False').
+struct_dt_elem_i([ 26,62,92 ],4,'ExternalName',lot_data_lotacao).
+struct_dt_elem_i([ 26,62,92 ],4,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,62,92 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,62,92 ],4,'XmlName','').
+struct_dt_elem_i([ 26,62,92 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,62,92 ],4,soaptype,'').
+struct_dt_elem_i([ 26,62,92 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,62,92 ],4,'JsonName','').
+struct_dt_elem_i([ 26,62,92 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,62,92 ],5,name,'Lot_data_remocao').
+struct_dt_elem_i([ 26,62,92 ],5,camelname,lot_data_remocao).
+struct_dt_elem_i([ 26,62,92 ],5,length,8).
+struct_dt_elem_i([ 26,62,92 ],5,decimals,0).
+struct_dt_elem_i([ 26,62,92 ],5,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 26,62,92 ],5,pic,'99/99/99').
+struct_dt_elem_i([ 26,62,92 ],5,collection,'False').
+struct_dt_elem_i([ 26,62,92 ],5,'ExternalName',lot_data_remocao).
+struct_dt_elem_i([ 26,62,92 ],5,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,62,92 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,62,92 ],5,'XmlName','').
+struct_dt_elem_i([ 26,62,92 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,62,92 ],5,soaptype,'').
+struct_dt_elem_i([ 26,62,92 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,62,92 ],5,'JsonName','').
+struct_dt_elem_i([ 26,62,92 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,62,92 ],6,name,'Lot_portaria').
+struct_dt_elem_i([ 26,62,92 ],6,camelname,lot_portaria).
+struct_dt_elem_i([ 26,62,92 ],6,length,100).
+struct_dt_elem_i([ 26,62,92 ],6,decimals,0).
+struct_dt_elem_i([ 26,62,92 ],6,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,62,92 ],6,pic,'').
+struct_dt_elem_i([ 26,62,92 ],6,collection,'False').
+struct_dt_elem_i([ 26,62,92 ],6,'ExternalName',lot_portaria).
+struct_dt_elem_i([ 26,62,92 ],6,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,62,92 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,62,92 ],6,'XmlName','').
+struct_dt_elem_i([ 26,62,92 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,62,92 ],6,soaptype,'').
+struct_dt_elem_i([ 26,62,92 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,62,92 ],6,'JsonName','').
+struct_dt_elem_i([ 26,62,92 ],6,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(mnproc,2,'DP_GET_LOTACAO','INTERNAL','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

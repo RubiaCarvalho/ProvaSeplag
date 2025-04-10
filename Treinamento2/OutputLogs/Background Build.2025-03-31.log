@@ -1,0 +1,184 @@
+2025-03-31 14:52:27,403: INFO  – ========== Specification started ==========
+2025-03-31 14:52:27,615: INFO  –  Specifying PInsert_Lotacao (1 of 1) ...
+2025-03-31 14:52:28,720: INFO  – Failed: Specification
+2025-03-31 14:59:22,868: INFO  – ========== Specification started ==========
+2025-03-31 14:59:23,536: INFO  –  Specifying PInsert_Lotacao (1 of 1) ...
+2025-03-31 14:59:23,921: WARN  – warning src0306: Subroutine ''mensagem'' is defined but never used. (Procedure 'PInsert_Lotacao' Source, Line: 16, Char: 5, , Details, )
+2025-03-31 14:59:23,935: ERROR – error spc0010: Type mismatch in assignment: &Message.Id = 1 (Varchar=Numeric). (Procedure 'PInsert_Lotacao' Source, Line: 17, , Details, )
+2025-03-31 14:59:23,951: WARN  – warning spc0047: Variable Lotacao_id not defined; N(10.2) assumed. (Procedure 'PInsert_Lotacao', , Details, )
+2025-03-31 14:59:23,953: WARN  – warning spc0047: Variable Lotacao_nome not defined; N(10.2) assumed. (Procedure 'PInsert_Lotacao', , Details, )
+2025-03-31 14:59:24,718: INFO  – Failed: Specification
+2025-03-31 14:59:46,859: INFO  – ========== Specification started ==========
+2025-03-31 14:59:56,862: INFO  –  Specifying PInsert_Lotacao (1 of 1) ...
+2025-03-31 14:59:58,079: WARN  – warning spc0047: Variable Lotacao_id not defined; N(10.2) assumed. (Procedure 'PInsert_Lotacao', , Details, )
+2025-03-31 14:59:58,082: WARN  – warning spc0047: Variable Lotacao_nome not defined; N(10.2) assumed. (Procedure 'PInsert_Lotacao', , Details, )
+2025-03-31 15:00:07,434: INFO  – Success: Specification
+2025-03-31 15:00:32,345: INFO  –  Specifying PInsert_Lotacao (already specified) ...
+2025-03-31 15:04:08,413: INFO  – ========== Specification started ==========
+2025-03-31 15:04:08,568: INFO  –  Specifying PInsert_Lotacao (1 of 1) ...
+2025-03-31 15:04:09,583: INFO  – Success: Specification
+2025-03-31 15:15:55,355: INFO  – ========== Specification started ==========
+2025-03-31 15:15:55,611: INFO  –  Specifying Pupdate_lotacao (1 of 1) ...
+2025-03-31 15:15:55,621: WARN  – warning spc0217: Object is unreachable. (Procedure 'Pupdate_lotacao', , Details, )
+2025-03-31 15:15:56,407: INFO  – Success: Specification
+2025-03-31 15:16:03,591: INFO  – ========== Specification started ==========
+2025-03-31 15:16:04,426: INFO  –  Specifying Pupdate_lotacao (1 of 1) ...
+2025-03-31 15:16:04,435: WARN  – warning spc0217: Object is unreachable. (Procedure 'Pupdate_lotacao', , Details, )
+2025-03-31 15:16:05,334: INFO  – Success: Specification
+2025-03-31 15:17:11,500: INFO  – ========== Specification started ==========
+2025-03-31 15:17:11,938: INFO  –  Specifying API_Servidores (1 of 1) ...
+2025-03-31 15:17:16,574: INFO  – Success: Specification
+2025-03-31 15:17:48,040: INFO  – ========== Specification started ==========
+2025-03-31 15:17:50,337: INFO  – Success: Specification
+2025-03-31 18:06:56,393: INFO  – ========== Specification started ==========
+2025-03-31 18:06:58,713: INFO  –  Specifying PUpdate_servidor_efetivo (1 of 1) ...
+2025-03-31 18:06:58,721: WARN  – warning spc0217: Object is unreachable. (Procedure 'PUpdate_servidor_efetivo', , Details, )
+2025-03-31 18:06:59,292: INFO  – Success: Specification
+2025-03-31 18:07:02,902: INFO  – ========== Specification started ==========
+2025-03-31 18:07:03,421: INFO  –  Specifying Pupdate_lotacao (1 of 1) ...
+2025-03-31 18:07:04,401: INFO  – Success: Specification
+2025-03-31 18:09:18,270: INFO  – ========== Specification started ==========
+2025-03-31 18:09:18,802: INFO  –  Specifying PUpdate_servidor_efetivo (1 of 1) ...
+2025-03-31 18:09:18,813: WARN  – warning spc0217: Object is unreachable. (Procedure 'PUpdate_servidor_efetivo', , Details, )
+2025-03-31 18:09:19,392: INFO  – Success: Specification
+2025-03-31 18:14:36,751: INFO  – ========== Specification started ==========
+2025-03-31 18:14:36,840: INFO  –  Specifying PUpdate_servidor_temp (1 of 1) ...
+2025-03-31 18:14:36,840: WARN  – warning spc0217: Object is unreachable. (Procedure 'PUpdate_servidor_temp', , Details, )
+2025-03-31 18:14:37,361: INFO  – Success: Specification
+2025-03-31 18:15:02,262: INFO  – ========== Specification started ==========
+2025-03-31 18:15:02,369: INFO  –  Specifying PUpdate_servidor_temp (1 of 1) ...
+2025-03-31 18:15:02,384: WARN  – warning spc0217: Object is unreachable. (Procedure 'PUpdate_servidor_temp', , Details, )
+2025-03-31 18:15:02,884: INFO  – Success: Specification
+2025-03-31 18:17:53,430: INFO  – ========== Specification started ==========
+2025-03-31 18:17:53,557: INFO  –  Specifying PInsert_Lotacao (1 of 1) ...
+2025-03-31 18:17:54,411: INFO  – Success: Specification
+2025-03-31 18:19:19,190: INFO  – ========== Specification started ==========
+2025-03-31 18:19:19,303: INFO  –  Specifying PInsert_Lotacao (1 of 1) ...
+2025-03-31 18:19:20,060: INFO  – Success: Specification
+2025-03-31 18:22:17,401: INFO  – ========== Specification started ==========
+2025-03-31 18:22:17,543: INFO  –  Specifying PInsert_servidor_efetivo (1 of 1) ...
+2025-03-31 18:22:17,544: WARN  – warning spc0217: Object is unreachable. (Procedure 'PInsert_servidor_efetivo', , Details, )
+2025-03-31 18:22:18,152: INFO  – Success: Specification
+2025-03-31 18:22:41,873: INFO  – ========== Specification started ==========
+2025-03-31 18:22:41,985: INFO  –  Specifying PInsert_servidor_efetivo (1 of 1) ...
+2025-03-31 18:22:41,985: WARN  – warning spc0217: Object is unreachable. (Procedure 'PInsert_servidor_efetivo', , Details, )
+2025-03-31 18:22:42,542: INFO  – Success: Specification
+2025-03-31 18:25:06,874: INFO  – ========== Specification started ==========
+2025-03-31 18:25:06,998: INFO  –  Specifying PInsert_servidor_efetivo (1 of 1) ...
+2025-03-31 18:25:06,998: WARN  – warning spc0217: Object is unreachable. (Procedure 'PInsert_servidor_efetivo', , Details, )
+2025-03-31 18:25:07,570: INFO  – Success: Specification
+2025-03-31 18:26:30,921: INFO  – ========== Specification started ==========
+2025-03-31 18:26:31,498: INFO  – Success: Specification
+2025-03-31 18:55:16,544: INFO  – ========== Specification started ==========
+2025-03-31 18:55:16,666: INFO  –  Specifying PInsert_servidor_temp (1 of 1) ...
+2025-03-31 18:55:16,666: WARN  – warning spc0217: Object is unreachable. (Procedure 'PInsert_servidor_temp', , Details, )
+2025-03-31 18:55:17,260: INFO  – Success: Specification
+2025-03-31 18:59:13,833: INFO  – ========== Specification started ==========
+2025-03-31 18:59:14,340: INFO  –  Specifying API_Servidores (1 of 1) ...
+2025-03-31 18:59:15,191: INFO  – Success: Specification
+2025-03-31 19:00:26,032: INFO  – ========== Specification started ==========
+2025-03-31 19:00:26,117: INFO  –  Specifying API_Servidores (1 of 1) ...
+2025-03-31 19:00:26,787: INFO  – Success: Specification
+2025-03-31 19:02:41,044: INFO  – ========== Specification started ==========
+2025-03-31 19:02:41,154: INFO  –  Specifying Pupdate_Unidade (1 of 1) ...
+2025-03-31 19:02:41,155: WARN  – warning spc0217: Object is unreachable. (Procedure 'Pupdate_Unidade', , Details, )
+2025-03-31 19:02:41,739: INFO  – Success: Specification
+2025-03-31 19:04:29,924: INFO  – ========== Specification started ==========
+2025-03-31 19:04:30,460: INFO  –  Specifying PUpdate_servidor_efetivo (1 of 1) ...
+2025-03-31 19:04:30,476: WARN  – warning spc0217: Object is unreachable. (Procedure 'PUpdate_servidor_efetivo', , Details, )
+2025-03-31 19:04:31,065: INFO  – Success: Specification
+2025-03-31 19:05:03,606: INFO  – ========== Specification started ==========
+2025-03-31 19:05:04,111: INFO  –  Specifying Pupdate_lotacao (1 of 1) ...
+2025-03-31 19:05:05,188: INFO  – Success: Specification
+2025-03-31 19:05:08,317: INFO  – ========== Specification started ==========
+2025-03-31 19:05:08,431: INFO  –  Specifying PUpdate_servidor_efetivo (1 of 1) ...
+2025-03-31 19:05:08,446: WARN  – warning spc0217: Object is unreachable. (Procedure 'PUpdate_servidor_efetivo', , Details, )
+2025-03-31 19:05:08,999: INFO  – Success: Specification
+2025-03-31 19:06:42,096: INFO  – ========== Specification started ==========
+2025-03-31 19:06:42,208: INFO  –  Specifying PUpdate_servidor_temp (1 of 1) ...
+2025-03-31 19:06:42,209: WARN  – warning spc0217: Object is unreachable. (Procedure 'PUpdate_servidor_temp', , Details, )
+2025-03-31 19:06:42,749: INFO  – Success: Specification
+2025-03-31 19:18:22,944: INFO  – ========== Specification started ==========
+2025-03-31 19:18:23,065: INFO  –  Specifying Pupdate_lotacao (1 of 1) ...
+2025-03-31 19:18:23,846: INFO  – Success: Specification
+2025-03-31 19:43:54,348: INFO  – ========== Specification started ==========
+2025-03-31 19:43:54,838: INFO  –  Specifying API_Servidores (1 of 1) ...
+2025-03-31 19:43:55,731: INFO  – Success: Specification
+2025-03-31 19:43:59,355: INFO  – ========== Specification started ==========
+2025-03-31 19:43:59,851: INFO  –  Specifying API_Servidores (1 of 1) ...
+2025-03-31 19:44:00,567: INFO  – Success: Specification
+2025-03-31 19:58:21,185: INFO  – ========== Specification started ==========
+2025-03-31 19:58:21,696: INFO  –  Specifying API_Servidores (1 of 1) ...
+2025-03-31 19:58:21,886: WARN  – warning spc0024: Not enough parameters calling DP_Get_Lotacao. (API 'API' Service Source, Line: 17, , Details, )
+2025-03-31 19:58:22,522: INFO  – Success: Specification
+2025-03-31 19:58:25,655: INFO  – ========== Specification started ==========
+2025-03-31 19:58:26,120: INFO  –  Specifying API_Servidores (1 of 1) ...
+2025-03-31 19:58:26,415: WARN  – warning spc0024: Not enough parameters calling DP_Get_Lotacao. (API 'API' Service Source, Line: 17, , Details, )
+2025-03-31 19:58:27,060: INFO  – Success: Specification
+2025-03-31 20:36:48,463: INFO  – ========== Specification started ==========
+2025-03-31 20:36:48,987: INFO  –  Specifying API_Servidores (1 of 1) ...
+2025-03-31 20:36:49,811: INFO  – Failed: Specification
+2025-03-31 20:37:06,316: INFO  – ========== Specification started ==========
+2025-03-31 20:37:06,437: INFO  –  Specifying API_Servidores (1 of 1) ...
+2025-03-31 20:37:07,170: INFO  – Failed: Specification
+2025-03-31 20:45:09,211: INFO  – ========== Specification started ==========
+2025-03-31 20:45:09,834: INFO  –  Specifying PInsert_servidor_efetivo (1 of 1) ...
+2025-03-31 20:45:09,854: WARN  – warning spc0217: Object is unreachable. (Procedure 'PInsert_Serv_Efet', , Details, )
+2025-03-31 20:45:10,559: INFO  – Failed: Specification
+2025-03-31 20:45:13,704: INFO  – ========== Specification started ==========
+2025-03-31 20:45:14,211: INFO  –  Specifying PUpdate_servidor_efetivo (1 of 1) ...
+2025-03-31 20:45:14,228: WARN  – warning spc0217: Object is unreachable. (Procedure 'PUpdate_Serv_Efet', , Details, )
+2025-03-31 20:45:14,790: INFO  – Failed: Specification
+2025-03-31 20:47:26,521: INFO  – ========== Specification started ==========
+2025-03-31 20:47:26,658: INFO  –  Specifying PUpdate_servidor_temp (1 of 1) ...
+2025-03-31 20:47:26,658: WARN  – warning spc0217: Object is unreachable. (Procedure 'PUpdate_Serv_Temp', , Details, )
+2025-03-31 20:47:27,253: INFO  – Failed: Specification
+2025-03-31 20:47:30,390: INFO  – ========== Specification started ==========
+2025-03-31 20:47:30,504: INFO  –  Specifying PInsert_servidor_temp (1 of 1) ...
+2025-03-31 20:47:30,504: WARN  – warning spc0217: Object is unreachable. (Procedure 'PInsert_Serv_Temp', , Details, )
+2025-03-31 20:47:31,125: INFO  – Failed: Specification
+2025-03-31 20:48:19,018: INFO  – ========== Specification started ==========
+2025-03-31 20:48:19,534: INFO  –  Specifying PUpdate_lotacao (1 of 1) ...
+2025-03-31 20:48:20,499: INFO  – Failed: Specification
+2025-03-31 20:50:41,987: INFO  – ========== Specification started ==========
+2025-03-31 20:50:42,164: INFO  –  Specifying API_Servidores (1 of 1) ...
+2025-03-31 20:50:42,405: WARN  – warning spc0024: Not enough parameters calling DP_Get_Lotacao. (API 'API' Service Source, Line: 18, , Details, )
+2025-03-31 20:50:42,422: ERROR – error spc0023: Parameter &Sdt_Serv_Efet (Sdt_serv_efet) calling DP_Get_Serv_Efet has wrong type (expecting Sdt_Lotacao). (API 'API' Service Source, Line: 36, , Details, )
+2025-03-31 20:50:42,424: WARN  – warning spc0024: Not enough parameters calling DP_Get_Serv_Efet. (API 'API' Service Source, Line: 36, , Details, )
+2025-03-31 20:50:42,435: ERROR – error spc0023: Parameter &Sdt_Serv_Temp (Sdt_serv_temp) calling DP_Get_Serv_Temp has wrong type (expecting Sdt_Lotacao). (API 'API' Service Source, Line: 54, , Details, )
+2025-03-31 20:50:42,435: WARN  – warning spc0024: Not enough parameters calling DP_Get_Serv_Temp. (API 'API' Service Source, Line: 54, , Details, )
+2025-03-31 20:50:42,452: ERROR – error spc0023: Parameter &Sdt_Unidade (Sdt_unidade) calling DP_Get_Unidade has wrong type (expecting Sdt_Lotacao). (API 'API' Service Source, Line: 72, , Details, )
+2025-03-31 20:50:42,453: WARN  – warning spc0024: Not enough parameters calling DP_Get_Unidade. (API 'API' Service Source, Line: 72, , Details, )
+2025-03-31 20:50:43,103: INFO  – Failed: Specification
+2025-03-31 21:03:23,454: INFO  – ========== Specification started ==========
+2025-03-31 21:03:23,551: INFO  –  Specifying DP_Get_Serv_Efet (1 of 1) ...
+2025-03-31 21:03:23,809: WARN  – warning spc0174: Could not find a proper SDT for root element 'servidor_efetivo'. Element should be named 'Lotacao'. (Data Provider 'DP_Get_Serv_Efet' Source, Line: 1, , Details, )
+2025-03-31 21:03:23,819: ERROR – error spc0002: lotacao  does not have the 'Se_pes_id' property. (Data Provider 'DP_Get_Serv_Efet' Source, Line: 3, , Details, )
+2025-03-31 21:03:23,820: ERROR – error spc0002: lotacao  does not have the 'Se_matricula' property. (Data Provider 'DP_Get_Serv_Efet' Source, Line: 4, , Details, )
+2025-03-31 21:03:24,367: INFO  – Failed: Specification
+2025-03-31 21:07:34,382: INFO  – ========== Specification started ==========
+2025-03-31 21:07:34,869: INFO  –  Specifying DP_Get_Serv_Efet (1 of 1) ...
+2025-03-31 21:07:34,958: WARN  – warning spc0174: Could not find a proper SDT for root element 'Sdt_serv_efet'. Element should be named 'Lotacao'. (Data Provider 'DP_Get_Serv_Efet' Source, Line: 1, , Details, )
+2025-03-31 21:07:34,968: ERROR – error spc0002: lotacao  does not have the 'Se_pes_id' property. (Data Provider 'DP_Get_Serv_Efet' Source, Line: 3, , Details, )
+2025-03-31 21:07:34,969: ERROR – error spc0002: lotacao  does not have the 'Se_matricula' property. (Data Provider 'DP_Get_Serv_Efet' Source, Line: 4, , Details, )
+2025-03-31 21:07:35,575: INFO  – Failed: Specification
+2025-03-31 21:09:35,803: INFO  – ========== Specification started ==========
+2025-03-31 21:09:36,289: INFO  –  Specifying DP_Get_Lotacao (1 of 1) ...
+2025-03-31 21:09:36,411: WARN  – warning spc0174: Could not find a proper SDT for root element 'Sdt_Lotacao'. Element should be named 'Lotacao'. (Data Provider 'DP_Get_Lotacao' Source, Line: 1, , Details, )
+2025-03-31 21:09:37,066: INFO  – Failed: Specification
+2025-03-31 21:09:40,199: INFO  – ========== Specification started ==========
+2025-03-31 21:09:40,668: INFO  –  Specifying DP_Get_Unidade (1 of 1) ...
+2025-03-31 21:09:41,354: INFO  – Failed: Specification
+2025-03-31 21:27:38,617: INFO  – ========== Specification started ==========
+2025-03-31 21:27:41,094: INFO  –  Specifying PDelete_Unidade (1 of 1) ...
+2025-03-31 21:27:42,012: INFO  – Success: Specification
+2025-03-31 21:32:47,476: INFO  – ========== Specification started ==========
+2025-03-31 21:32:47,964: INFO  –  Specifying API (1 of 1) ...
+2025-03-31 21:32:48,235: WARN  – warning spc0024: Not enough parameters calling DP_Get_Lotacao. (API 'API' Service Source, Line: 18, , Details, )
+2025-03-31 21:32:48,247: WARN  – warning spc0024: Not enough parameters calling DP_Get_Serv_Efet. (API 'API' Service Source, Line: 36, , Details, )
+2025-03-31 21:32:48,259: WARN  – warning spc0024: Not enough parameters calling DP_Get_Serv_Temp. (API 'API' Service Source, Line: 54, , Details, )
+2025-03-31 21:32:48,271: WARN  – warning spc0024: Not enough parameters calling DP_Get_Unidade. (API 'API' Service Source, Line: 72, , Details, )
+2025-03-31 21:32:48,907: INFO  – Success: Specification
+2025-03-31 21:44:34,448: INFO  – ========== Specification started ==========
+2025-03-31 21:44:34,969: INFO  –  Specifying PDelete_Lotacao (1 of 1) ...
+2025-03-31 21:44:35,847: INFO  – Success: Specification

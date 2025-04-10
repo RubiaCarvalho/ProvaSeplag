@@ -1,0 +1,31 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_11-185416</SpecVersion>
+<Object>
+<ObjClsGuid>87313f43-5eb2-41d7-9b8c-e8d9f5bf9588</ObjClsGuid>
+<ObjCls>10</ObjCls>
+<ObjId>0</ObjId>
+<ObjName>SubTypes</ObjName>
+<ObjDesc>Subtype groups analysis report</ObjDesc>
+<ObjPgmName>SubTypes</ObjPgmName>
+<ObjClsName>Subtype group</ObjClsName></Object>
+<Warnings>
+<Warning>
+<MsgCode>spc0042</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>5</SubtypeGroupId>
+<SubtypeGroupName>unidade_endereco</SubtypeGroupName></SubtypeGroup>
+<Token>' (</Token>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>unidade_id</AttriName>
+<Description>unidade_id</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>30</AttriId>
+<AttriName>endereco_id</AttriName>
+<Description>endereco_id</Description></Attribute>
+<Token>) does not identify a base table. Subtype group definition ignored.</Token></Message></Warning></Warnings>
+<Errors></Errors></ObjectSpec>

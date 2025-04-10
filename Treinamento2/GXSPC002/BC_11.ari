@@ -1,0 +1,4 @@
+bc_dt_elem_i([ 0,11,0 ],'Serv_lot_id',allownulls,no).
+bc_dt_elem_i([ 0,11,0 ],'Unid_id',allownulls,no).
+bc_dt_elem_i([ 0,11,0 ],'Unid_nome',readonly,yes).
+ 

@@ -1,0 +1,104 @@
+openapi: 3.0.0
+info:
+  title: "Treinamento2"
+  version: "20250408231031"
+servers:
+  - url: http://localhost:8080/Treinamento2JavaPostgreSQL/rest
+paths:
+components:
+  schemas:
+    GeneXus.Common.Messages_Message:
+      properties:
+        Id:
+          description: "Id"
+          type: "string"
+        Type:
+          description: "Type"
+          type: "integer"
+          format: "int32"
+        Description:
+          description: "Description"
+          type: "string"
+    Sdt_Lotacao_Sdt_LotacaoItem:
+      properties:
+        lot_id:
+          description: "lot_id"
+          type: "integer"
+          format: "int64"
+        pes_id:
+          description: "pes_id"
+          type: "integer"
+          format: "int64"
+        unid_id:
+          description: "unid_id"
+          type: "integer"
+          format: "int64"
+        lot_data_lotacao:
+          description: "lot_data_lotacao"
+          type: "string"
+          format: "date"
+        lot_data_remocao:
+          description: "lot_data_remocao"
+          type: "string"
+          format: "date"
+        lot_portaria:
+          description: "lot_portaria"
+          type: "string"
+    SDT_ServLotado_SDT_ServLotadoItem:
+      properties:
+        serv_lot_id:
+          description: "serv_lot_id"
+          type: "integer"
+          format: "int64"
+        serv_lot_idade:
+          description: "serv_lot_idade"
+          type: "integer"
+          format: "int32"
+        serv_lot_unid:
+          description: "serv_lot_unid"
+          type: "string"
+        serv_lot_foto:
+          description: "serv_lot_foto"
+          type: "string"
+        unid_id:
+          description: "unid_id"
+          type: "integer"
+          format: "int64"
+        unid_nome:
+          description: "Unidade Nome"
+          type: "string"
+    Sdt_serv_efet_Sdt_serv_efetItem:
+      properties:
+        se_pes_id:
+          description: "se_pes_id"
+          type: "integer"
+          format: "int64"
+        se_matricula:
+          description: "se_matricula"
+          type: "string"
+    Sdt_serv_temp_Sdt_serv_tempItem:
+      properties:
+        st_pes_id:
+          description: "st_pes_id"
+          type: "integer"
+          format: "int64"
+        st_data_admissao:
+          description: "Data de Admissao "
+          type: "string"
+          format: "date"
+        st_data_demissao:
+          description: "Data de Demissao"
+          type: "string"
+          format: "date"
+    Sdt_unidade_Sdt_unidadeItem:
+      properties:
+        unid_id:
+          description: "unid_id"
+          type: "integer"
+          format: "int64"
+        unid_nome:
+          description: "Unidade Nome"
+          type: "string"
+        unid_sigla:
+          description: "Unidade sigla"
+          type: "string"

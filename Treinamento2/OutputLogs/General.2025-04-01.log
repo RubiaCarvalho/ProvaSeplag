@@ -1,0 +1,6 @@
+2025-04-01 11:26:11,696: ERROR – error src0098: Invalid expression after value: expecting 'if' condition. (Data Provider 'DP_Get_Lotacao' Source, Line: 6, Char: 11, , Details, )
+2025-04-01 11:26:11,700: ERROR – error: Supported grammar:<value> IF <condition> (Data Provider 'DP_Get_Lotacao' Source, Line: 6, Char: 11, )
+2025-04-01 11:26:11,701: ERROR – error src0111: Root group missing. (Data Provider 'DP_Get_Lotacao' Source, Line: 6, Char: 12, , Details, )
+2025-04-01 11:32:14,267: ERROR – error src0098: Invalid expression after value: expecting 'if' condition. (Data Provider 'DP_Get_Lotacao' Source, Line: 6, Char: 11, , Details, )
+2025-04-01 11:32:14,271: ERROR – error: Supported grammar:<value> IF <condition> (Data Provider 'DP_Get_Lotacao' Source, Line: 6, Char: 11, )
+2025-04-01 11:32:14,272: ERROR – error src0111: Root group missing. (Data Provider 'DP_Get_Lotacao' Source, Line: 6, Char: 12, , Details, )

@@ -1,0 +1,44 @@
+ 
+spec_i([ sdt,[ 0,6,0 ],servidor_efetivo,servidor_efetivo,0,por,'18_0_11-185416' ]).
+ 
+struct_dt_i([ 0,6,0 ],name,servidor_efetivo).
+struct_dt_i([ 0,6,0 ],namespace,'Treinamento2').
+struct_dt_i([ 0,6,0 ],significantName,servidor_efetivo).
+struct_dt_i([ 0,6,0 ],'ObjName',servidor_efetivo).
+struct_dt_i([ 0,6,0 ],'ObjDesc',servidor_efetivo).
+struct_dt_i([ 0,6,0 ],'ExternalName',servidor_efetivo).
+struct_dt_i([ 0,6,0 ],'ExternalNamespace','Treinamento2').
+struct_dt_i([ 0,6,0 ],key,[ 32 ]).
+struct_dt_i([ 0,6,0 ],lvl,9).
+struct_dt_i([ 0,6,0 ],fullname,servidor_efetivo).
+ 
+struct_dt_elem_i([ 0,6,0 ],1,name,'Se_pes_id').
+struct_dt_elem_i([ 0,6,0 ],1,camelname,se_pes_id).
+struct_dt_elem_i([ 0,6,0 ],1,basedon,96).
+struct_dt_elem_i([ 0,6,0 ],1,length,8).
+struct_dt_elem_i([ 0,6,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],1,sign,0).
+struct_dt_elem_i([ 0,6,0 ],1,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 0,6,0 ],1,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 0,6,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],1,attributeid,'32').
+struct_dt_elem_i([ 0,6,0 ],1,'ExternalName',se_pes_id).
+struct_dt_elem_i([ 0,6,0 ],1,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 0,6,0 ],2,name,'Se_matricula').
+struct_dt_elem_i([ 0,6,0 ],2,camelname,se_matricula).
+struct_dt_elem_i([ 0,6,0 ],2,length,20).
+struct_dt_elem_i([ 0,6,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],2,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,6,0 ],2,pic,'').
+struct_dt_elem_i([ 0,6,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],2,attributeid,'27').
+struct_dt_elem_i([ 0,6,0 ],2,'ExternalName',se_matricula).
+struct_dt_elem_i([ 0,6,0 ],2,'ExternalNamespace','Treinamento2').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').

@@ -1,0 +1,2 @@
+com.treinamento2.api_services_rest
+com.treinamento2.api_client_rest

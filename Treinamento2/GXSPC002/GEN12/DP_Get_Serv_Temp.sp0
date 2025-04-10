@@ -1,0 +1,361 @@
+spec_i([ mnproc,4,'DP_Get_Serv_Temp','DP_Get_Serv_Temp',0,por,'18_0_11-185416' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 8,[ [ 8,many ] ],[],[],[ [ [ 8 ],[ 26,25,31 ] ] ],[ [ [ 8 ],[] ] ],[ -31 ],'ISERVIDOR_TEMPORARIO',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+cond_constraint_i(2,[ [ t(31,2),t(=,10),t('Ds_get_serv_temp_3_st_pes_id',23) ],[ 31 ],[ t('.NOT.',8),t('null(',1),t('Ds_get_serv_temp_3_st_pes_id',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(25,2),t(=,10),t('Ds_get_serv_temp_4_st_data_admissao',23) ],[ 25 ],[ t('.NOT.',8),t('null(',1),t('Ds_get_serv_temp_4_st_data_admissao',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(26,2),t(=,10),t('Ds_get_serv_temp_5_st_data_demissao',23) ],[ 26 ],[ t('.NOT.',8),t('null(',1),t('Ds_get_serv_temp_5_st_data_demissao',23),t(')',4) ],[] ]).
+ 
+ 
+level_option_i(2,server_paging,[ y,[] ]).
+level_option_i(2,lvl_paging,[ [ t('Pagenumber',23) ],[ t('Pagesize',23) ] ]).
+ 
+ta_i(2,[ [ [ 8,26 ],[ 8,25 ],[ 8,31 ] ] ]).
+ 
+las_i(2,[ [ 26,25,31 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'POSTGRESQL_EXTENSIONS','')).
+rule_i(0,datastore(1,'POSTGRESQL_VERSION','8_3')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','java:/jdbc/treinamento')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','-1')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',admin)).
+rule_i(0,datastore(1,'USER_ID',postgres)).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','5432')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME',treinamento)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','org.postgresql.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',15)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop(gxtest_ignoreForTestCoverage,'0')).
+rule_i(0,prop('ObjectVisibility','KnowledgeBase')).
+rule_i(0,prop('FullyQualifiedName','DP_Get_Serv_Temp')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OutputCollectionName','DP_Get_Serv_Temp')).
+rule_i(0,prop('OutputCollection','0')).
+rule_i(0,prop('OutputSDT',o(26,'Sdt_serv_temp'))).
+rule_i(0,prop(idINFER_SDT,idINFER_STRUCTURE_NO)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Theme',o(102,'Treinamento2'))).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','DP_Get_Serv_Temp')).
+rule_i(0,prop('ObjName','DP_Get_Serv_Temp')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Atualizar"','5' ]) ],[],[],[])).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'St_pes_id','St_data_admissao','St_data_demissao','Pagenumber','Pagesize','Gxm2rootcol' ],[])).
+rule_i(0,parmio([ [ 'St_pes_id',in ],[ 'St_data_admissao',in ],[ 'St_data_demissao',in ],[ 'Pagenumber',in ],[ 'Pagesize',in ],[ 'Gxm2rootcol',out ] ])).
+ 
+a_i(1,2,t,8,[],[ [],'ISERVIDOR_TEMPORARIO',[] ]).
+ 
+v_i(t,i,1,[]).
+v_i(t,o,1,26).
+v_i(t,o,1,25).
+v_i(t,o,1,31).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(31,[ st_pes_id,int,8,0,'ZZZZZZZ9',0,st_pes_id,'',0 ]).
+attri_i(25,[ st_data_admissao,date,8,0,'99/99/99',0,'Data de Admissao ','',0 ]).
+attri_i(26,[ st_data_demissao,date,8,0,'99/99/99',0,'Data de Demissao','',0 ]).
+attri_i('Ds_get_serv_temp_5_st_data_demissao',[ 'Ds_get_serv_temp_5_st_data_demissao',date,8,0,'99/99/99',0,'St_data_demissao','',21 ]).
+attri_i('Ds_get_serv_temp_4_st_data_admissao',[ 'Ds_get_serv_temp_4_st_data_admissao',date,8,0,'99/99/99',0,'St_data_admissao','',20 ]).
+attri_i('Ds_get_serv_temp_3_st_pes_id',[ 'Ds_get_serv_temp_3_st_pes_id',int,8,0,'ZZZZZZZ9',0,'St_pes_id','',19 ]).
+attri_i('Gxm1sdt_serv_temp',[ 'Gxm1sdt_serv_temp',o('Sdt_serv_temp.Sdt_serv_tempItem'),0,0,'',0,'Gxm1sdt_serv_temp','',17 ]).
+attri_i('Gxm2rootcol',[ 'Gxm2rootcol',o(objectcollection('Sdt_serv_temp.Sdt_serv_tempItem')),0,0,'',0,'Gxm2rootcol','',16 ]).
+attri_i('Pagesize',[ 'PageSize',int,4,0,'ZZZ9',0,'Page Size','',15 ]).
+attri_i('Pagenumber',[ 'PageNumber',int,4,0,'ZZZ9',0,'Page Number','',14 ]).
+attri_i('St_data_demissao',[ st_data_demissao,date,8,0,'99/99/99',0,'Data de Demissao','',13 ]).
+attri_i('St_data_admissao',[ st_data_admissao,date,8,0,'99/99/99',0,'Data de Admissao ','',12 ]).
+attri_i('St_pes_id',[ st_pes_id,int,8,0,'ZZZZZZZ9',0,st_pes_id,'',11 ]).
+attri_i('Sdt_serv_temp',[ 'Sdt_Serv_Temp',o(objectcollection('Sdt_serv_temp.Sdt_serv_tempItem')),0,0,'',0,'Sdt_Serv_Temp','',7 ]).
+ 
+table_i(8,[ servidor_temporario,[ 31,25,26 ],servidor_temporario,servidor_temporario ]).
+ 
+index_i(8,[ 'ISERVIDOR_TEMPORARIO',u,[ 31 ],'Iservidor_temporario' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(96,[ 'Id' ]).
+ 
+ 
+break_i(2,nvg,1,[ -31 ],[ [ 26,25,31 ],[ 31,25,26 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,3).
+b_group_i(1,2,nvg,2,3,3).
+b_group_i(2,1,lit,0,4,6).
+b_group_i(1,3,lit,0,10,0).
+ 
+b_line_i([ 2,1 ],1,1,cmd,3,[ t('',107,3,0),t('Ds_get_serv_temp_3_st_pes_id',23,0,0),t(=,10,0,0),t('St_pes_id',23,0,86) ]).
+b_line_i([ 2,2 ],1,1,cmd,3,[ t('',107,3,0),t('Ds_get_serv_temp_4_st_data_admissao',23,0,0),t(=,10,0,0),t('St_data_admissao',23,0,97) ]).
+b_line_i([ 2,3 ],1,1,cmd,3,[ t('',107,3,0),t('Ds_get_serv_temp_5_st_data_demissao',23,0,0),t(=,10,0,0),t('St_data_demissao',23,0,115) ]).
+b_line_i(3,2,1,cmd,4,[ t('',121,3,0) ]).
+b_line_i([ 3,3 ],2,1,cmd,3,[ t('',107,3,0),t('Gxm1sdt_serv_temp',23,3,0),t(=,10,3,0),t([ 'Sdt_serv_temp.Sdt_serv_tempItem',[ t('(',0,3,0),t(')',4,3,0) ],n ],46,3,0) ]).
+b_line_i([ 3,4 ],2,1,cmd,3,[ t('',107,3,0),t([ t('Gxm2rootcol',23,3,0),t('add(',1,3,0) ],31,3,0),t('Gxm1sdt_serv_temp',23,3,0),t(')',4,3,0) ]).
+b_line_i(6,2,1,cmd,6,[ t('',107,6,0),t([ t('Gxm1sdt_serv_temp',23,6,0),t('St_pes_id',3,6,0) ],29,6,0),t(=,10,6,0),t(31,2,6,0) ]).
+b_line_i(7,2,1,cmd,6,[ t('',107,7,0),t([ t('Gxm1sdt_serv_temp',23,6,0),t('St_data_admissao',3,6,0) ],29,6,0),t(=,10,6,0),t(25,2,6,0) ]).
+b_line_i(8,2,1,cmd,6,[ t('',107,8,0),t([ t('Gxm1sdt_serv_temp',23,6,0),t('St_data_demissao',3,6,0) ],29,6,0),t(=,10,6,0),t(26,2,6,0) ]).
+b_line_i(9,2,1,cmd,6,[ t('',128,9,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg(layout(1,[]),spc0174,[ 'Could not find a proper SDT for root element ','''servidor_temporario''. Element should be named ''Sdt_serv_temp''.','' ])).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(42,1).
+ 
+att_prop_i(2,26,'ExternalName',st_data_demissao,d).
+att_prop_i(2,26,'ExternalNamespace','Treinamento2',d).
+att_prop_i(2,26,'EmptyAsNull','Yes',d).
+att_prop_i(2,26,idBasedOn,'',d).
+att_prop_i(2,26,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,26,'AttRegEx','',d).
+att_prop_i(2,26,'AttValidationFailedMsg','',d).
+att_prop_i(2,26,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,26,'DownloadOffline','0',d).
+att_prop_i(2,26,'VarServiceExtName','',d).
+att_prop_i(2,26,'FullName',st_data_demissao,v).
+att_prop_i(2,25,'ExternalName',st_data_admissao,d).
+att_prop_i(2,25,'ExternalNamespace','Treinamento2',d).
+att_prop_i(2,25,'EmptyAsNull','Yes',d).
+att_prop_i(2,25,idBasedOn,'',d).
+att_prop_i(2,25,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,25,'AttRegEx','',d).
+att_prop_i(2,25,'AttValidationFailedMsg','',d).
+att_prop_i(2,25,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,25,'DownloadOffline','0',d).
+att_prop_i(2,25,'VarServiceExtName','',d).
+att_prop_i(2,25,'FullName',st_data_admissao,v).
+att_prop_i(2,31,'ExternalName',st_pes_id,d).
+att_prop_i(2,31,'ExternalNamespace','Treinamento2',d).
+att_prop_i(2,31,'EmptyAsNull','Yes',d).
+att_prop_i(2,31,idBasedOn,96,d).
+att_prop_i(2,31,'AUTONUMBER','-1',d).
+att_prop_i(2,31,'AUTONUMBER_START','1',d).
+att_prop_i(2,31,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,31,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,31,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,31,'AttRegEx','',d).
+att_prop_i(2,31,'AttValidationFailedMsg','',d).
+att_prop_i(2,31,'DownloadOffline','0',d).
+att_prop_i(2,31,'VarServiceExtName','',d).
+att_prop_i(2,31,'FullName',st_pes_id,v).
+ 
+ 
+tbl_att_prop_i(2,8,31,'AllowNulls',n).
+tbl_att_prop_i(2,8,25,'AllowNulls',n).
+tbl_att_prop_i(2,8,26,'AllowNulls',n).
+ 
+var_prop_i(2,'St_pes_id',idBasedOn,'',v).
+var_prop_i(2,'St_data_admissao',idBasedOn,'',v).
+var_prop_i(2,'St_data_demissao',idBasedOn,'',v).
+var_prop_i(2,'St_pes_id',idBasedOn,'',v).
+var_prop_i(2,'St_data_admissao',idBasedOn,'',v).
+var_prop_i(2,'St_data_demissao',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,64,0 ],name,'Sdt_serv_temp').
+struct_dt_i([ 26,64,0 ],namespace,'Treinamento2').
+struct_dt_i([ 26,64,0 ],'ObjName','Sdt_serv_temp').
+struct_dt_i([ 26,64,0 ],'ObjDesc','Sdt_serv_temp').
+struct_dt_i([ 26,64,0 ],'ExternalName','Sdt_serv_temp').
+struct_dt_i([ 26,64,0 ],'ExternalNamespace','Treinamento2').
+struct_dt_i([ 26,64,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,64,0 ],collection,'True').
+struct_dt_i([ 26,64,0 ],datatype,[ 26,64,94 ]).
+struct_dt_i([ 26,64,0 ],'CollectionItemName','Sdt_serv_tempItem').
+struct_dt_i([ 26,64,0 ],'XmlName','').
+struct_dt_i([ 26,64,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,64,0 ],'XmlNamespace','').
+struct_dt_i([ 26,64,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,64,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,64,0 ],'JsonName','').
+struct_dt_i([ 26,64,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,64,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,64,94 ],name,'Sdt_serv_tempItem').
+struct_dt_i([ 26,64,94 ],namespace,'Treinamento2.Sdt_serv_temp').
+struct_dt_i([ 26,64,0 ],fullname,'Sdt_serv_temp').
+struct_dt_i([ 26,64,94 ],fullname,'Sdt_serv_temp.Sdt_serv_tempItem').
+struct_dt_i([ 26,64,0 ],camelname,'Sdt_serv_temp').
+struct_dt_i([ 26,64,94 ],camelname,'Sdt_serv_tempitem').
+ 
+struct_dt_elem_i([ 26,64,94 ],1,name,'St_pes_id').
+struct_dt_elem_i([ 26,64,94 ],1,camelname,st_pes_id).
+struct_dt_elem_i([ 26,64,94 ],1,basedon,96).
+struct_dt_elem_i([ 26,64,94 ],1,length,8).
+struct_dt_elem_i([ 26,64,94 ],1,decimals,0).
+struct_dt_elem_i([ 26,64,94 ],1,sign,0).
+struct_dt_elem_i([ 26,64,94 ],1,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,64,94 ],1,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,64,94 ],1,collection,'False').
+struct_dt_elem_i([ 26,64,94 ],1,'ExternalName',st_pes_id).
+struct_dt_elem_i([ 26,64,94 ],1,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,64,94 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,64,94 ],1,'XmlName','').
+struct_dt_elem_i([ 26,64,94 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,94 ],1,soaptype,'').
+struct_dt_elem_i([ 26,64,94 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,94 ],1,'JsonName','').
+struct_dt_elem_i([ 26,64,94 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,94 ],2,name,'St_data_admissao').
+struct_dt_elem_i([ 26,64,94 ],2,camelname,st_data_admissao).
+struct_dt_elem_i([ 26,64,94 ],2,length,8).
+struct_dt_elem_i([ 26,64,94 ],2,decimals,0).
+struct_dt_elem_i([ 26,64,94 ],2,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 26,64,94 ],2,pic,'99/99/99').
+struct_dt_elem_i([ 26,64,94 ],2,collection,'False').
+struct_dt_elem_i([ 26,64,94 ],2,'ExternalName',st_data_admissao).
+struct_dt_elem_i([ 26,64,94 ],2,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,64,94 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,64,94 ],2,'XmlName','').
+struct_dt_elem_i([ 26,64,94 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,94 ],2,soaptype,'').
+struct_dt_elem_i([ 26,64,94 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,94 ],2,'JsonName','').
+struct_dt_elem_i([ 26,64,94 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,94 ],3,name,'St_data_demissao').
+struct_dt_elem_i([ 26,64,94 ],3,camelname,st_data_demissao).
+struct_dt_elem_i([ 26,64,94 ],3,length,8).
+struct_dt_elem_i([ 26,64,94 ],3,decimals,0).
+struct_dt_elem_i([ 26,64,94 ],3,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 26,64,94 ],3,pic,'99/99/99').
+struct_dt_elem_i([ 26,64,94 ],3,collection,'False').
+struct_dt_elem_i([ 26,64,94 ],3,'ExternalName',st_data_demissao).
+struct_dt_elem_i([ 26,64,94 ],3,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,64,94 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,64,94 ],3,'XmlName','').
+struct_dt_elem_i([ 26,64,94 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,94 ],3,soaptype,'').
+struct_dt_elem_i([ 26,64,94 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,94 ],3,'JsonName','').
+struct_dt_elem_i([ 26,64,94 ],3,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(mnproc,4,'DP_GET_SERV_TEMP','INTERNAL','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

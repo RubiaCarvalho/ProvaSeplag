@@ -1,0 +1,167 @@
+2025-03-31 12:47:57,080: INFO  – Processing file 'C:\Program Files (x86)\GeneXus\GeneXus18\ObjectDefinitions\Language\Portuguese.xpz'...
+2025-03-31 12:47:57,233: INFO  – Reading import file objects...
+2025-03-31 12:47:57,260: INFO  – Finished
+2025-03-31 12:47:57,835: INFO  – Importing Language 'Portuguese'... 
+2025-03-31 12:47:58,732: INFO  – Successful
+2025-03-31 12:48:01,386: INFO  – Generating Design System Treinamento2
+2025-03-31 12:48:03,924: INFO  – Success: Create Knowledge Base
+2025-03-31 13:02:24,574: INFO  – Contacting GeneXus Server at 'http://open.genexusserver.com/v18'... 
+2025-03-31 13:02:25,524: ERROR – error: GeneXus Server at 'http://open.genexusserver.com/v18' requires user credentials.
+2025-03-31 13:02:34,906: INFO  – ========== Update packaged module 'GeneXusUnanimo' started ==========
+2025-03-31 13:02:34,972: INFO  – ========== Downloading packaged module started ==========
+2025-03-31 13:02:34,974: INFO  – Downloading 'GeneXusUnanimo' from 'Local' server
+2025-03-31 13:02:36,862: INFO  – Success: Downloading packaged module
+2025-03-31 13:02:40,732: INFO  – Processing file 'C:\Users\rubia\.gxmodules\.cache\GeneXusUnanimo_82a1b924-415b-4600-bd00-7651e1216eb9\1.0.72\ModuleDefinition.xml'...
+2025-03-31 13:02:40,823: INFO  – Checking Import References...
+2025-03-31 13:02:40,828: INFO  – Finished
+2025-03-31 13:02:40,829: INFO  – Reading import file objects...
+2025-03-31 13:02:40,914: INFO  – Finished
+2025-03-31 13:02:47,116: INFO  – Importing Module 'GeneXusUnanimo'... 
+2025-03-31 13:03:05,292: INFO  – Successful
+2025-03-31 13:03:05,374: INFO  – Success: Update packaged module 'GeneXusUnanimo'
+2025-03-31 13:03:09,509: INFO  – ========== Update packaged module 'GeneXusUnanimo' started ==========
+2025-03-31 13:03:09,573: INFO  – ========== Downloading packaged module started ==========
+2025-03-31 13:03:09,573: INFO  – Downloading 'GeneXusUnanimo' from 'Local' server
+2025-03-31 13:03:11,688: INFO  – Success: Downloading packaged module
+2025-03-31 13:03:15,355: INFO  – Processing file 'C:\Users\rubia\.gxmodules\.cache\GeneXusUnanimo_82a1b924-415b-4600-bd00-7651e1216eb9\1.0.72\ModuleDefinition.xml'...
+2025-03-31 13:03:15,426: INFO  – Checking Import References...
+2025-03-31 13:03:15,428: INFO  – Finished
+2025-03-31 13:03:15,429: INFO  – Reading import file objects...
+2025-03-31 13:03:15,565: INFO  – Finished
+2025-03-31 13:03:20,837: INFO  – Importing Module 'GeneXusUnanimo'... 
+2025-03-31 13:03:37,479: INFO  – Successful
+2025-03-31 13:03:37,572: INFO  – Success: Update packaged module 'GeneXusUnanimo'
+2025-03-31 13:35:44,540: ERROR – error src0216: 'pes_id' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 2, Char: 43, , Details, )
+2025-03-31 13:35:44,541: ERROR – error src0216: 'se_matricula' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 3, Char: 43, , Details, )
+2025-03-31 13:35:44,542: ERROR – error src0202: 'serv_efet_nome' attribute is not in a table (Procedure 'PUpdate_servidor_efetivo' Source, Line: 4, Char: 5, , Details, )
+2025-03-31 13:35:44,542: ERROR – error src0216: 'serv_efet_nome' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 4, Char: 45, , Details, )
+2025-03-31 13:35:44,543: ERROR – error src0202: 'serv_efet_idade' attribute is not in a table (Procedure 'PUpdate_servidor_efetivo' Source, Line: 5, Char: 5, , Details, )
+2025-03-31 13:35:44,544: ERROR – error src0216: 'serv_efet_idade' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 5, Char: 45, , Details, )
+2025-03-31 13:35:44,544: ERROR – error src0202: 'serv_efet_foto' attribute is not in a table (Procedure 'PUpdate_servidor_efetivo' Source, Line: 6, Char: 5, , Details, )
+2025-03-31 13:35:44,545: ERROR – error src0216: 'serv_efet_foto' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 6, Char: 45, , Details, )
+2025-03-31 13:35:44,545: ERROR – error src0216: 'unid_id' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 7, Char: 39, , Details, )
+2025-03-31 13:37:47,828: ERROR – error src0216: 'pes_id' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 2, Char: 43, , Details, )
+2025-03-31 13:37:47,828: ERROR – error src0202: 'serv_efet_nome' attribute is not in a table (Procedure 'PUpdate_servidor_efetivo' Source, Line: 4, Char: 5, , Details, )
+2025-03-31 13:37:47,829: ERROR – error src0216: 'serv_efet_nome' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 4, Char: 45, , Details, )
+2025-03-31 13:37:47,829: ERROR – error src0202: 'serv_efet_idade' attribute is not in a table (Procedure 'PUpdate_servidor_efetivo' Source, Line: 5, Char: 5, , Details, )
+2025-03-31 13:37:47,830: ERROR – error src0216: 'serv_efet_idade' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 5, Char: 45, , Details, )
+2025-03-31 13:37:47,831: ERROR – error src0202: 'serv_efet_foto' attribute is not in a table (Procedure 'PUpdate_servidor_efetivo' Source, Line: 6, Char: 5, , Details, )
+2025-03-31 13:37:47,831: ERROR – error src0216: 'serv_efet_foto' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 6, Char: 45, , Details, )
+2025-03-31 13:37:47,831: ERROR – error src0216: 'unid_id' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 7, Char: 39, , Details, )
+2025-03-31 13:38:55,700: ERROR – error src0216: 'pes_id' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 2, Char: 43, , Details, )
+2025-03-31 13:38:55,701: ERROR – error src0202: 'serv_efet_nome' attribute is not in a table (Procedure 'PUpdate_servidor_efetivo' Source, Line: 4, Char: 5, , Details, )
+2025-03-31 13:38:55,701: ERROR – error src0216: 'serv_efet_nome' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 4, Char: 45, , Details, )
+2025-03-31 13:38:55,701: ERROR – error src0202: 'serv_efet_idade' attribute is not in a table (Procedure 'PUpdate_servidor_efetivo' Source, Line: 5, Char: 5, , Details, )
+2025-03-31 13:38:55,701: ERROR – error src0216: 'serv_efet_idade' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 5, Char: 45, , Details, )
+2025-03-31 13:38:55,703: ERROR – error src0202: 'serv_efet_foto' attribute is not in a table (Procedure 'PUpdate_servidor_efetivo' Source, Line: 6, Char: 5, , Details, )
+2025-03-31 13:38:55,703: ERROR – error src0216: 'serv_efet_foto' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 6, Char: 45, , Details, )
+2025-03-31 13:38:55,704: ERROR – error src0216: 'unid_id' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 7, Char: 39, , Details, )
+2025-03-31 13:41:43,872: ERROR – error src0216: 'pes_id' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 2, Char: 43, , Details, )
+2025-03-31 13:41:43,873: ERROR – error src0202: 'serv_efet_nome' attribute is not in a table (Procedure 'PUpdate_servidor_efetivo' Source, Line: 4, Char: 5, , Details, )
+2025-03-31 13:41:43,873: ERROR – error src0216: 'serv_efet_nome' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 4, Char: 45, , Details, )
+2025-03-31 13:41:43,873: ERROR – error src0202: 'serv_efet_idade' attribute is not in a table (Procedure 'PUpdate_servidor_efetivo' Source, Line: 5, Char: 5, , Details, )
+2025-03-31 13:41:43,873: ERROR – error src0216: 'serv_efet_idade' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 5, Char: 45, , Details, )
+2025-03-31 13:41:43,875: ERROR – error src0202: 'serv_efet_foto' attribute is not in a table (Procedure 'PUpdate_servidor_efetivo' Source, Line: 6, Char: 5, , Details, )
+2025-03-31 13:41:43,875: ERROR – error src0216: 'serv_efet_foto' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 6, Char: 45, , Details, )
+2025-03-31 13:41:43,876: ERROR – error src0216: 'unid_id' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 7, Char: 39, , Details, )
+2025-03-31 13:52:48,354: INFO  – Reloading Procedure 'Pupdate_lotacao'...
+2025-03-31 13:52:48,806: INFO  – Done
+2025-03-31 14:23:57,771: ERROR – error src0053: '"' is an invalid character. (Procedure 'Pupdate_lotacao' Source, Line: 10, Char: 16, , Details, )
+2025-03-31 14:23:57,772: ERROR – error src0102: Parameter separator (',') was expected. (Procedure 'Pupdate_lotacao' Source, Line: 10, Char: 17, , Details, )
+2025-03-31 14:23:57,772: ERROR – error src0053: '!' is an invalid character. (Procedure 'Pupdate_lotacao' Source, Line: 10, Char: 24, , Details, )
+2025-03-31 14:23:57,773: ERROR – error src0102: Parameter separator (',') was expected. (Procedure 'Pupdate_lotacao' Source, Line: 10, Char: 24, , Details, )
+2025-03-31 14:24:06,609: ERROR – error src0216: 'pes_id' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 4, Char: 22, , Details, )
+2025-03-31 14:24:06,610: ERROR – error src0216: 'serv_efet_nome' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 5, Char: 22, , Details, )
+2025-03-31 14:24:06,610: ERROR – error src0216: 'serv_efet_idade' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 6, Char: 22, , Details, )
+2025-03-31 14:24:06,610: ERROR – error src0216: 'unid_id' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 7, Char: 22, , Details, )
+2025-03-31 14:24:06,610: ERROR – error src0294: Unknown function 'Save' (Procedure 'PInsert_servidor_efetivo' Source, Line: 9, Char: 22, , Details, )
+2025-03-31 14:24:06,611: ERROR – error src0294: Unknown function 'Success' (Procedure 'PInsert_servidor_efetivo' Source, Line: 11, Char: 25, , Details, )
+2025-03-31 14:25:14,045: ERROR – error src0216: 'pes_id' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 3, Char: 22, , Details, )
+2025-03-31 14:25:14,046: ERROR – error src0216: 'serv_efet_nome' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 4, Char: 22, , Details, )
+2025-03-31 14:25:14,046: ERROR – error src0216: 'serv_efet_idade' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 5, Char: 22, , Details, )
+2025-03-31 14:25:14,046: ERROR – error src0216: 'unid_id' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 6, Char: 22, , Details, )
+2025-03-31 14:25:14,048: ERROR – error src0294: Unknown function 'Save' (Procedure 'PInsert_servidor_efetivo' Source, Line: 7, Char: 22, , Details, )
+2025-03-31 14:25:14,049: ERROR – error src0294: Unknown function 'Success' (Procedure 'PInsert_servidor_efetivo' Source, Line: 9, Char: 25, , Details, )
+2025-03-31 14:25:30,885: ERROR – error src0216: 'pes_id' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 3, Char: 22, , Details, )
+2025-03-31 14:25:30,885: ERROR – error src0216: 'serv_efet_nome' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 4, Char: 22, , Details, )
+2025-03-31 14:25:30,886: ERROR – error src0216: 'serv_efet_idade' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 5, Char: 22, , Details, )
+2025-03-31 14:25:30,886: ERROR – error src0216: 'unid_id' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 6, Char: 22, , Details, )
+2025-03-31 14:39:58,740: ERROR – error: missing ';' at '}'
+2025-03-31 14:40:02,275: ERROR – error: Object Reference Pinsert_Lotacao.Udp not found.
+2025-03-31 14:41:40,338: ERROR – error: Object Reference Pinsert_Lotacao.Udp not found.
+2025-03-31 14:45:39,851: ERROR – error src0216: 'pes_id' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 3, Char: 22, , Details, )
+2025-03-31 14:45:39,852: ERROR – error src0216: 'serv_efet_nome' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 4, Char: 22, , Details, )
+2025-03-31 14:45:39,852: ERROR – error src0216: 'serv_efet_idade' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 5, Char: 22, , Details, )
+2025-03-31 14:45:39,852: ERROR – error src0216: 'unid_id' invalid property. (Procedure 'PInsert_servidor_efetivo' Source, Line: 6, Char: 22, , Details, )
+2025-03-31 14:56:36,238: ERROR – error src0069: Expecting property or method expression after a dot (Procedure 'PInsert_Lotacao' Source, Line: 14, Char: 14, , Details, )
+2025-03-31 14:56:36,238: ERROR – error src0057: Expecting 'EndIf' command to close the 'If' block (Procedure 'PInsert_Lotacao' Source, Line: 10, Char: 1, , Details, )
+2025-03-31 14:56:36,240: ERROR – error src0054: '{0}' is an unexpected expression. (Procedure 'PInsert_Lotacao' Source, Line: 14, Char: 17, , Details, )
+2025-03-31 14:56:36,241: ERROR – error src0052: Unexpected command 'endif' (Procedure 'PInsert_Lotacao' Source, Line: 15, Char: 1, , Details, )
+2025-03-31 14:59:19,855: WARN  – warning src0306: Subroutine ''mensagem'' is defined but never used. (Procedure 'PInsert_Lotacao' Source, Line: 16, Char: 5, , Details, )
+2025-03-31 14:59:23,266: WARN  – warning src0306: Subroutine ''mensagem'' is defined but never used. (Procedure 'PInsert_Lotacao' Source, Line: 16, Char: 5, , Details, )
+2025-03-31 18:05:02,328: ERROR – error src0216: 'se_pes_id' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 1, Char: 40, , Details, )
+2025-03-31 18:05:02,328: ERROR – error src0216: 'se_matricula' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 2, Char: 50, , Details, )
+2025-03-31 18:06:25,222: ERROR – error src0216: 'se_pes_id' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 1, Char: 42, , Details, )
+2025-03-31 18:06:25,223: ERROR – error src0216: 'se_matricula' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 2, Char: 50, , Details, )
+2025-03-31 18:06:42,478: ERROR – error src0216: 'se_matricula' invalid property. (Procedure 'PUpdate_servidor_efetivo' Source, Line: 2, Char: 50, , Details, )
+2025-03-31 18:07:45,818: INFO  – Reloading Procedure 'PUpdate_servidor_temp'...
+2025-03-31 18:07:45,979: INFO  – Done
+2025-03-31 18:08:50,444: ERROR – error src0294: Unknown function 'Load' (Procedure 'PUpdate_servidor_temp' Source, Line: 1, Char: 19, , Details, )
+2025-03-31 18:14:01,116: ERROR – error src0069: Expecting property or method expression after a dot (Procedure 'PUpdate_servidor_temp' Source, Line: 4, Char: 18, , Details, )
+2025-03-31 18:30:03,386: INFO  – Reloading Procedure 'PInsert_Unidade'...
+2025-03-31 18:30:03,599: INFO  – Done
+2025-03-31 18:50:24,798: INFO  – Reloading Procedure 'Pupdate_Unidade'...
+2025-03-31 18:50:25,048: INFO  – Done
+2025-03-31 18:52:00,197: ERROR – error src0216: 'se_pes_id' invalid property. (Procedure 'PInsert_servidor_temp' Source, Line: 3, Char: 19, , Details, )
+2025-03-31 18:52:00,197: ERROR – error src0216: 'se_matricula' invalid property. (Procedure 'PInsert_servidor_temp' Source, Line: 4, Char: 19, , Details, )
+2025-03-31 18:52:00,198: ERROR – error src0294: Unknown function 'Save' (Procedure 'PInsert_servidor_temp' Source, Line: 5, Char: 19, , Details, )
+2025-03-31 18:52:00,198: ERROR – error src0294: Unknown function 'Success' (Procedure 'PInsert_servidor_temp' Source, Line: 7, Char: 22, , Details, )
+2025-03-31 18:52:00,198: ERROR – error src0294: Unknown function 'GetMessages' (Procedure 'PInsert_servidor_temp' Source, Line: 10, Char: 35, , Details, )
+2025-03-31 18:52:00,364: ERROR – error src0216: 'se_pes_id' invalid property. (Procedure 'PInsert_servidor_temp' Source, Line: 3, Char: 19, , Details, )
+2025-03-31 18:52:00,364: ERROR – error src0216: 'se_matricula' invalid property. (Procedure 'PInsert_servidor_temp' Source, Line: 4, Char: 19, , Details, )
+2025-03-31 18:52:00,364: ERROR – error src0294: Unknown function 'Save' (Procedure 'PInsert_servidor_temp' Source, Line: 5, Char: 19, , Details, )
+2025-03-31 18:52:00,364: ERROR – error src0294: Unknown function 'Success' (Procedure 'PInsert_servidor_temp' Source, Line: 7, Char: 22, , Details, )
+2025-03-31 18:52:00,364: ERROR – error src0294: Unknown function 'GetMessages' (Procedure 'PInsert_servidor_temp' Source, Line: 10, Char: 35, , Details, )
+2025-03-31 18:54:20,782: ERROR – error src0216: 'se_pes_id' invalid property. (Procedure 'PInsert_servidor_temp' Source, Line: 3, Char: 49, , Details, )
+2025-03-31 19:08:51,519: INFO  – Reloading Procedure 'PDelete_Lotacao'...
+2025-03-31 19:08:51,723: INFO  – Done
+2025-03-31 19:10:03,025: INFO  – Reloading Procedure 'PDelete_Serv_Temp'...
+2025-03-31 19:10:03,306: INFO  – Done
+2025-03-31 19:10:15,472: INFO  – Reloading Procedure 'PDelete_Serv_Efet'...
+2025-03-31 19:10:15,716: INFO  – Done
+2025-03-31 19:21:44,577: ERROR – error src0056: Missed ';' at the end of the rule. (Procedure 'PDelete_Lotacao' Rules, Line: 1, Char: 1, , Details, )
+2025-03-31 19:22:54,520: ERROR – error src0216: 'lot_id' invalid property. (Procedure 'PDelete_Unidade' Source, Line: 2, Char: 13, , Details, )
+2025-03-31 19:22:54,521: ERROR – error src0216: 'lot_id' invalid property. (Procedure 'PDelete_Unidade' Source, Line: 2, Char: 35, , Details, )
+2025-03-31 19:23:19,199: ERROR – error src0216: 'lot_id' invalid property. (Procedure 'PDelete_Unidade' Source, Line: 2, Char: 36, , Details, )
+2025-03-31 19:27:08,448: ERROR – error src0216: 'lot_id' invalid property. (Procedure 'PDelete_Serv_Efet' Source, Line: 2, Char: 15, , Details, )
+2025-03-31 19:27:08,449: ERROR – error src0216: 'lot_id' invalid property. (Procedure 'PDelete_Serv_Efet' Source, Line: 2, Char: 39, , Details, )
+2025-03-31 19:42:56,713: ERROR – error src0056: Missed ';' at the end of the rule. (Data Provider 'DP_Get_Lotacao' Rules, Line: 1, Char: 1, , Details, )
+2025-03-31 19:43:02,254: ERROR – error src0215: 'out:' invalid prefix. (Data Provider 'DP_Get_Lotacao' Rules, Line: 1, Char: 6, , Details, )
+2025-03-31 20:48:21,928: ERROR – error: Object Reference DP_Get_Serv_Efet not found.
+2025-03-31 20:48:37,844: ERROR – error: Object Reference DP_Get_Serv_Efet not found.
+2025-03-31 20:49:52,819: INFO  – Reloading Data Provider 'DP_Get_Serv_Efet'...
+2025-03-31 20:49:52,972: INFO  – Done
+2025-03-31 20:50:12,089: INFO  – Reloading Data Provider 'DP_Get_Serv_Temp'...
+2025-03-31 20:50:12,223: INFO  – Done
+2025-03-31 20:50:23,946: INFO  – Reloading Data Provider 'DP_Get_Unidade'...
+2025-03-31 20:50:24,117: INFO  – Done
+2025-03-31 21:53:53,646: ERROR – error src0111: Root group missing. (Data Provider 'DP_Get_Lotacao' Source, Line: 3, Char: 27, , Details, )
+2025-03-31 21:54:06,290: ERROR – error src0111: Root group missing. (Data Provider 'DP_Get_Lotacao' Source, Line: 3, Char: 27, , Details, )
+2025-03-31 22:03:42,618: ERROR – error src0098: Invalid expression after value: expecting 'if' condition. (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 10, , Details, )
+2025-03-31 22:03:42,618: ERROR – error: Supported grammar:<value> IF <condition> (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 10, )
+2025-03-31 22:03:42,618: ERROR – error src0111: Root group missing. (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 11, , Details, )
+2025-03-31 22:03:45,570: ERROR – error src0098: Invalid expression after value: expecting 'if' condition. (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 10, , Details, )
+2025-03-31 22:03:45,570: ERROR – error: Supported grammar:<value> IF <condition> (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 10, )
+2025-03-31 22:03:45,570: ERROR – error src0111: Root group missing. (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 11, , Details, )
+2025-03-31 22:03:47,262: ERROR – error src0098: Invalid expression after value: expecting 'if' condition. (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 10, , Details, )
+2025-03-31 22:03:47,262: ERROR – error: Supported grammar:<value> IF <condition> (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 10, )
+2025-03-31 22:03:47,263: ERROR – error src0111: Root group missing. (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 11, , Details, )
+2025-03-31 22:03:51,272: ERROR – error src0098: Invalid expression after value: expecting 'if' condition. (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 10, , Details, )
+2025-03-31 22:03:51,273: ERROR – error: Supported grammar:<value> IF <condition> (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 10, )
+2025-03-31 22:03:51,273: ERROR – error src0111: Root group missing. (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 11, , Details, )
+2025-03-31 22:03:51,643: ERROR – error src0098: Invalid expression after value: expecting 'if' condition. (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 10, , Details, )
+2025-03-31 22:03:51,645: ERROR – error: Supported grammar:<value> IF <condition> (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 10, )
+2025-03-31 22:03:51,645: ERROR – error src0111: Root group missing. (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 11, , Details, )
+2025-03-31 22:03:57,190: ERROR – error src0098: Invalid expression after value: expecting 'if' condition. (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 10, , Details, )
+2025-03-31 22:03:57,191: ERROR – error: Supported grammar:<value> IF <condition> (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 10, )
+2025-03-31 22:03:57,191: ERROR – error src0111: Root group missing. (Data Provider 'DP_Get_Lotacao' Source, Line: 4, Char: 11, , Details, )

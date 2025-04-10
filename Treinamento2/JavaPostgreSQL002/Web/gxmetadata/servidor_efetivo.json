@@ -1,0 +1,4 @@
+{
+
+"GxObject":{"ObjectType":"BusinessComponent","Name":"servidor_efetivo","idConnectivitySupport":"idInherit","Structure":{"Levels":[{"Name":"Servidor_efetivo","ParentLevel":"","LevelName":"servidor_efetivo","Description":"servidor_efetivo","Attributes":[{"Name":"se_pes_id","Caption":"se_pes_id","default":"0","SuperType":"pes_id","SubtypeGroup":"servidor_efetivo","IsKey":"true","ReadOnly":"false","AttributeType":"int","Description":"se_pes_id","Length":"8","Decimals":"0","Signed":"false","AllowDBNulls":"false","Domain":"Id","InternalName":"se_pes_id","InputPicture":"ZZZZZZZ9","Type":"xs:int"},{"Name":"se_matricula","Caption":"se_matricula","default":"","IsKey":"false","ReadOnly":"false","AttributeType":"svchar","Description":"se_matricula","Length":"20","Decimals":"0","Signed":"false","AllowDBNulls":"true","InternalName":"se_matricula","DescriptionAtt":"true","InputPicture":"","Type":"xs:string"}]}]},"Relations":{"ManyToOne":{"references":[]}}}
+}

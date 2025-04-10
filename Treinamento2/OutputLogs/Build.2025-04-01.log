@@ -1,0 +1,171 @@
+2025-04-01 09:35:43,466: INFO  – ========== Build All started ==========
+2025-04-01 09:35:44,931: INFO  – ========== Copy Module 'GeneXus' started ==========
+2025-04-01 09:35:44,998: INFO  – Success: Copy Module 'GeneXus'
+2025-04-01 09:35:50,563: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2025-04-01 09:35:50,616: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2025-04-01 09:35:50,678: INFO  – ========== Target Environment update started ==========
+2025-04-01 09:35:51,259: INFO  – Success: Target Environment update
+2025-04-01 09:35:51,278: INFO  – Building changed objects list
+2025-04-01 09:35:52,373: INFO  – ========== Specification started ==========
+2025-04-01 09:35:58,139: INFO  –  Specifying API ...
+2025-04-01 09:35:58,171: INFO  –  Specifying PDelete_Serv_Efet (already specified) ...
+2025-04-01 09:35:58,199: INFO  –  Specifying PDelete_Unidade (already specified) ...
+2025-04-01 09:35:59,973: WARN  – warning spc0024: Not enough parameters calling DP_Get_Lotacao. (API 'API' Service Source, Line: 18, , Details, )
+2025-04-01 09:35:59,976: ERROR – error spc0023: Parameter &Sdt_Serv_Efet (Sdt_serv_efet) calling PDelete_Serv_Efet has wrong type (expecting Numeric). (API 'API' Service Source, Line: 32, , Details, )
+2025-04-01 09:35:59,978: WARN  – warning spc0024: Not enough parameters calling DP_Get_Serv_Efet. (API 'API' Service Source, Line: 36, , Details, )
+2025-04-01 09:35:59,979: ERROR – error spc0023: Parameter &Sdt_Serv_Temp (Sdt_serv_temp) calling PDelete_Serv_Temp has wrong type (expecting Numeric). (API 'API' Service Source, Line: 50, , Details, )
+2025-04-01 09:35:59,979: WARN  – warning spc0024: Not enough parameters calling DP_Get_Serv_Temp. (API 'API' Service Source, Line: 54, , Details, )
+2025-04-01 09:35:59,980: WARN  – warning spc0024: Not enough parameters calling DP_Get_Unidade. (API 'API' Service Source, Line: 72, , Details, )
+2025-04-01 09:36:00,157: INFO  – Generating Resources...
+2025-04-01 09:36:00,957: INFO  –  Specifying PDelete_Serv_Temp (already specified) ...
+2025-04-01 09:36:01,013: INFO  – Success
+2025-04-01 09:36:01,215: INFO  – ========== Default (Java) Generation started ==========
+2025-04-01 09:36:04,158: INFO  – Failed: Specification
+2025-04-01 09:36:15,079: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\pdelete_serv_efet.java
+2025-04-01 09:36:15,349: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\pdelete_unidade.java
+2025-04-01 09:36:15,457: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\pdelete_serv_temp.java
+2025-04-01 09:36:15,750: INFO  – Generating to JavaPostgreSQL002\web\js\gxcfg.js
+2025-04-01 09:36:15,808: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\client.cfg
+2025-04-01 09:36:16,088: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\GXApplicationClasses.txt
+2025-04-01 09:36:16,089: INFO  – Generating to JavaPostgreSQL002\web\web.xml
+2025-04-01 09:36:16,121: INFO  – Generating to JavaPostgreSQL002\web\bld12.info
+2025-04-01 09:36:16,128: INFO  – Generating to JavaPostgreSQL002\web\DeveloperMenu.xml
+2025-04-01 09:36:18,235: INFO  – Success: Default (Java) Generation
+2025-04-01 09:36:19,946: INFO  – Compressing static files...
+2025-04-01 09:36:20,731: INFO  – Success
+2025-04-01 09:36:21,747: INFO  – ========== Rest API Documentation Generation started ==========
+2025-04-01 09:36:22,460: INFO  – Generation...API
+2025-04-01 09:36:22,528: INFO  – Generation...API_Servidores
+2025-04-01 09:36:22,539: INFO  – Success: Rest API Documentation Generation
+2025-04-01 09:36:22,542: INFO  – ========== Protocol Buffer file Generation started ==========
+2025-04-01 09:36:22,576: INFO  – Success: Protocol Buffer file Generation
+2025-04-01 09:36:22,873: INFO  – ========== DeveloperMenu Compilation for Default (Java) started ==========
+2025-04-01 09:36:23,456: INFO  – C:\KBs\Treinamento2\JavaPostgreSQL002\web\gradlew.bat build -Dorg.gradle.jvmargs=-Xmx1024m
+2025-04-01 09:36:29,117: INFO  – Starting a Gradle Daemon (subsequent builds will be faster)
+2025-04-01 09:36:41,755: INFO  – > Configure project :
+2025-04-01 09:36:41,755: INFO  – apply services.webnotifications.genexus.gradle
+2025-04-01 09:36:42,921: INFO  – > Task :assemble
+2025-04-01 09:36:42,923: INFO  – > Task :check
+2025-04-01 09:36:42,923: INFO  – > Task :build
+2025-04-01 09:36:52,022: INFO  – > Task :compileJava
+2025-04-01 09:36:52,042: INFO  – C:\KBs\Treinamento2\JavaPostgreSQL002\Web\src\main\java\com\treinamento2\api.java:119: error: incompatible types: SdtSdt_serv_efet cannot be converted to int
+2025-04-01 09:36:52,108: INFO  –       new com.treinamento2.pdelete_serv_efet(remoteHandle, context).execute( AV13Sdt_Serv_Efet, GXv_objcol_SdtMessages_Message1) ;
+2025-04-01 09:36:52,112: INFO  –                                                                              ^
+2025-04-01 09:36:52,115: INFO  – C:\KBs\Treinamento2\JavaPostgreSQL002\Web\src\main\java\com\treinamento2\api.java:173: error: incompatible types: SdtSdt_serv_temp cannot be converted to int
+2025-04-01 09:36:52,116: INFO  –       new com.treinamento2.pdelete_serv_temp(remoteHandle, context).execute( AV12Sdt_Serv_Temp, GXv_objcol_SdtMessages_Message1) ;
+2025-04-01 09:36:52,117: INFO  –                                                                              ^
+2025-04-01 09:36:55,416: INFO  – Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2025-04-01 09:36:55,418: INFO  – 2 errors
+2025-04-01 09:36:55,715: INFO  – > Task :compileJava FAILED
+2025-04-01 09:36:55,917: INFO  – > Task :copyAdditionalFiles
+2025-04-01 09:37:09,223: INFO  – > Task :copyRuntimeLibs UP-TO-DATE
+2025-04-01 09:37:09,224: INFO  – > Task :buildGenexus
+2025-04-01 09:37:09,254: INFO  – FAILURE: Build failed with an exception.
+2025-04-01 09:37:09,284: INFO  – * What went wrong:
+2025-04-01 09:37:09,285: INFO  – Execution failed for task ':compileJava'.
+2025-04-01 09:37:09,286: INFO  – > Compilation failed; see the compiler error output for details.
+2025-04-01 09:37:09,305: INFO  – * Try:
+2025-04-01 09:37:09,305: INFO  – > Run with --info option to get more log output.
+2025-04-01 09:37:09,306: INFO  – > Run with --scan to get full insights.
+2025-04-01 09:37:09,324: INFO  – BUILD FAILED in 44s
+2025-04-01 09:37:09,325: INFO  – 4 actionable tasks: 3 executed, 1 up-to-date
+2025-04-01 09:37:10,040: INFO  – Failed: DeveloperMenu Compilation for Default (Java)
+2025-04-01 09:37:10,152: INFO  – Failed: Build All
+2025-04-01 10:35:14,386: INFO  – ========== Build All started ==========
+2025-04-01 10:35:14,824: INFO  – ========== Copy Module 'GeneXus' started ==========
+2025-04-01 10:35:14,827: INFO  – Success: Copy Module 'GeneXus'
+2025-04-01 10:35:16,443: INFO  – ========== Copy Module 'GeneXusUnanimo' started ==========
+2025-04-01 10:35:16,445: INFO  – Success: Copy Module 'GeneXusUnanimo'
+2025-04-01 10:35:16,649: INFO  – ========== Target Environment update started ==========
+2025-04-01 10:35:17,039: INFO  – Success: Target Environment update
+2025-04-01 10:35:17,047: INFO  – Building changed objects list
+2025-04-01 10:35:18,054: INFO  – ========== Specification started ==========
+2025-04-01 10:35:20,856: INFO  –  Specifying PDelete_Lotacao (already specified) ...
+2025-04-01 10:35:22,218: INFO  –  Specifying API (already specified) ...
+2025-04-01 10:35:22,403: INFO  – Generating Resources...
+2025-04-01 10:35:22,641: INFO  – Success
+2025-04-01 10:35:22,734: INFO  – ========== Default (Java) Generation started ==========
+2025-04-01 10:35:23,130: INFO  – Success: Specification
+2025-04-01 10:35:24,519: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\pdelete_lotacao.java
+2025-04-01 10:35:24,657: INFO  – Generating to JavaPostgreSQL002\web\private\api.grp.json
+2025-04-01 10:35:24,671: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api.java
+2025-04-01 10:35:25,164: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\SdtSdt_Lotacao_RESTInterface.java
+2025-04-01 10:35:25,276: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\SdtSdt_serv_efet_RESTInterface.java
+2025-04-01 10:35:25,318: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\SdtSdt_serv_temp_RESTInterface.java
+2025-04-01 10:35:25,397: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\SdtSdt_unidade_RESTInterface.java
+2025-04-01 10:35:25,453: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_services_rest.java
+2025-04-01 10:35:25,951: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_insert_lotacao_RESTInterfaceIN.java
+2025-04-01 10:35:26,006: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_insert_lotacao_RESTInterfaceOUT.java
+2025-04-01 10:35:26,047: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_update_lotacao_RESTInterfaceIN.java
+2025-04-01 10:35:26,093: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_update_lotacao_RESTInterfaceOUT.java
+2025-04-01 10:35:26,136: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_delete_lotacao_RESTInterfaceIN.java
+2025-04-01 10:35:26,182: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_delete_lotacao_RESTInterfaceOUT.java
+2025-04-01 10:35:26,218: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_get_lotacao_RESTInterfaceIN.java
+2025-04-01 10:35:26,246: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_insert_servidor_efetivo_RESTInterfaceIN.java
+2025-04-01 10:35:26,269: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_insert_servidor_efetivo_RESTInterfaceOUT.java
+2025-04-01 10:35:26,293: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_update_servidor_efetivo_RESTInterfaceIN.java
+2025-04-01 10:35:26,320: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_update_servidor_efetivo_RESTInterfaceOUT.java
+2025-04-01 10:35:26,348: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_delete_servidor_efetivo_RESTInterfaceIN.java
+2025-04-01 10:35:26,386: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_get_servidor_efetivo_RESTInterfaceIN.java
+2025-04-01 10:35:26,418: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_insert_servidor_temporario_RESTInterfaceIN.java
+2025-04-01 10:35:26,470: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_insert_servidor_temporario_RESTInterfaceOUT.java
+2025-04-01 10:35:26,480: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_update_servidor_temporario_RESTInterfaceIN.java
+2025-04-01 10:35:26,508: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_update_servidor_temporario_RESTInterfaceOUT.java
+2025-04-01 10:35:26,532: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_delete_servidor_temporario_RESTInterfaceIN.java
+2025-04-01 10:35:26,565: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_delete_servidor_temporario_RESTInterfaceOUT.java
+2025-04-01 10:35:26,595: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_get_serv_temp_RESTInterfaceIN.java
+2025-04-01 10:35:26,631: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_insert_unidade_RESTInterfaceIN.java
+2025-04-01 10:35:26,666: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_insert_unidade_RESTInterfaceOUT.java
+2025-04-01 10:35:26,701: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_update_unidade_RESTInterfaceIN.java
+2025-04-01 10:35:26,745: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_update_unidade_RESTInterfaceOUT.java
+2025-04-01 10:35:26,781: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_delete_unidade_RESTInterfaceIN.java
+2025-04-01 10:35:26,818: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_delete_unidade_RESTInterfaceOUT.java
+2025-04-01 10:35:26,857: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_get_unidade_RESTInterfaceIN.java
+2025-04-01 10:35:26,897: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\api_client_rest.java
+2025-04-01 10:35:27,807: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\SdtSDT_ServidorEfetivo_SDT_ServidorEfetivoItem.java
+2025-04-01 10:35:27,885: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\StructSdtSDT_ServidorEfetivo_SDT_ServidorEfetivoItem.java
+2025-04-01 10:35:27,905: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\StructSdtSDT_ServidorEfetivo.java
+2025-04-01 10:35:27,984: INFO  – Generating to JavaPostgreSQL002\web\js\gxcfg.js
+2025-04-01 10:35:28,016: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\client.cfg
+2025-04-01 10:35:28,066: INFO  – Generating to JavaPostgreSQL002\web\src\main\java\com\treinamento2\GXApplicationClasses.txt
+2025-04-01 10:35:28,101: INFO  – Generating to JavaPostgreSQL002\web\web.xml
+2025-04-01 10:35:28,102: INFO  – Generating to JavaPostgreSQL002\web\bld12.info
+2025-04-01 10:35:28,103: INFO  – Generating to JavaPostgreSQL002\web\DeveloperMenu.xml
+2025-04-01 10:35:28,196: INFO  – Generating to JavaPostgreSQL002\web\sun-jaxws.xml
+2025-04-01 10:35:29,512: INFO  – Success: Default (Java) Generation
+2025-04-01 10:35:29,634: INFO  – Compressing static files...
+2025-04-01 10:35:29,762: INFO  – Success
+2025-04-01 10:35:30,611: INFO  – ========== Rest API Documentation Generation started ==========
+2025-04-01 10:35:30,761: INFO  – Generation...API
+2025-04-01 10:35:30,864: INFO  – Generation...API_Servidores
+2025-04-01 10:35:30,867: INFO  – Success: Rest API Documentation Generation
+2025-04-01 10:35:30,869: INFO  – ========== Protocol Buffer file Generation started ==========
+2025-04-01 10:35:30,901: INFO  – Success: Protocol Buffer file Generation
+2025-04-01 10:35:31,094: INFO  – ========== DeveloperMenu Compilation for Default (Java) started ==========
+2025-04-01 10:35:31,184: INFO  – C:\KBs\Treinamento2\JavaPostgreSQL002\web\gradlew.bat build -Dorg.gradle.jvmargs=-Xmx1024m
+2025-04-01 10:35:36,731: INFO  – > Configure project :
+2025-04-01 10:35:36,732: INFO  – apply services.webnotifications.genexus.gradle
+2025-04-01 10:35:36,834: INFO  – > Task :assemble
+2025-04-01 10:35:36,835: INFO  – > Task :check
+2025-04-01 10:35:36,836: INFO  – > Task :build
+2025-04-01 10:35:45,342: INFO  – > Task :compileJava
+2025-04-01 10:35:45,343: INFO  – C:\KBs\Treinamento2\JavaPostgreSQL002\Web\src\main\java\com\treinamento2\api_servidores.java:67: error: incompatible types: SdtSdt_Lotacao cannot be converted to int
+2025-04-01 10:35:45,344: INFO  –       new com.treinamento2.pdelete_lotacao(remoteHandle, context).execute( AV10sdt_lotacao, GXv_objcol_SdtMessages_Message1) ;
+2025-04-01 10:35:45,345: INFO  –                                                                            ^
+2025-04-01 10:35:48,034: INFO  – Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2025-04-01 10:35:48,035: INFO  – 1 error
+2025-04-01 10:35:48,441: INFO  – > Task :compileJava FAILED
+2025-04-01 10:35:48,749: INFO  – > Task :copyAdditionalFiles
+2025-04-01 10:35:48,937: INFO  – > Task :copyRuntimeLibs UP-TO-DATE
+2025-04-01 10:35:48,938: INFO  – > Task :buildGenexus
+2025-04-01 10:35:48,958: INFO  – FAILURE: Build failed with an exception.
+2025-04-01 10:35:48,973: INFO  – * What went wrong:
+2025-04-01 10:35:48,974: INFO  – Execution failed for task ':compileJava'.
+2025-04-01 10:35:48,975: INFO  – > Compilation failed; see the compiler error output for details.
+2025-04-01 10:35:48,997: INFO  – * Try:
+2025-04-01 10:35:48,998: INFO  – > Run with --info option to get more log output.
+2025-04-01 10:35:48,999: INFO  – > Run with --scan to get full insights.
+2025-04-01 10:35:49,029: INFO  – BUILD FAILED in 17s
+2025-04-01 10:35:49,030: INFO  – 4 actionable tasks: 3 executed, 1 up-to-date
+2025-04-01 10:35:49,682: INFO  – Failed: DeveloperMenu Compilation for Default (Java)
+2025-04-01 10:35:49,736: INFO  – Failed: Build All

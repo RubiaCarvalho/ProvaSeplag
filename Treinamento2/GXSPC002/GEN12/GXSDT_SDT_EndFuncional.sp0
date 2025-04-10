@@ -1,0 +1,91 @@
+ 
+spec_i([ sdt,[ 26,67,0 ],'SDT_EndFuncional','SDT_EndFuncional',0,por,'18_0_11-185416' ]).
+ 
+struct_dt_i([ 26,67,0 ],name,'SDT_EndFuncional').
+struct_dt_i([ 26,67,0 ],namespace,'Treinamento2').
+struct_dt_i([ 26,67,0 ],'ObjName','SDT_EndFuncional').
+struct_dt_i([ 26,67,0 ],'ObjDesc','SDT_End Funcional').
+struct_dt_i([ 26,67,0 ],'ExternalName','SDT_EndFuncional').
+struct_dt_i([ 26,67,0 ],'ExternalNamespace','Treinamento2').
+struct_dt_i([ 26,67,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,67,0 ],collection,'True').
+struct_dt_i([ 26,67,0 ],datatype,[ 26,67,97 ]).
+struct_dt_i([ 26,67,0 ],'CollectionItemName','SDT_EndFuncionalItem').
+struct_dt_i([ 26,67,0 ],'XmlName','').
+struct_dt_i([ 26,67,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,67,0 ],'XmlNamespace','').
+struct_dt_i([ 26,67,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,67,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,67,0 ],'JsonName','').
+struct_dt_i([ 26,67,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,67,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,67,97 ],name,'SDT_EndFuncionalItem').
+struct_dt_i([ 26,67,97 ],namespace,'Treinamento2.SDT_EndFuncional').
+struct_dt_i([ 26,67,0 ],fullname,'SDT_EndFuncional').
+struct_dt_i([ 26,67,97 ],fullname,'SDT_EndFuncional.SDT_EndFuncionalItem').
+struct_dt_i([ 26,67,0 ],modified,yes).
+struct_dt_i([ 26,67,97 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,67,97 ],1,name,'End_funcional_id').
+struct_dt_elem_i([ 26,67,97 ],1,camelname,end_funcional_id).
+struct_dt_elem_i([ 26,67,97 ],1,length,4).
+struct_dt_elem_i([ 26,67,97 ],1,decimals,0).
+struct_dt_elem_i([ 26,67,97 ],1,sign,0).
+struct_dt_elem_i([ 26,67,97 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,67,97 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,67,97 ],1,collection,'False').
+struct_dt_elem_i([ 26,67,97 ],1,'ExternalName',end_funcional_id).
+struct_dt_elem_i([ 26,67,97 ],1,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,67,97 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,67,97 ],1,'XmlName','').
+struct_dt_elem_i([ 26,67,97 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,97 ],1,soaptype,'').
+struct_dt_elem_i([ 26,67,97 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,97 ],1,'JsonName','').
+struct_dt_elem_i([ 26,67,97 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,97 ],2,name,'Unidade_id').
+struct_dt_elem_i([ 26,67,97 ],2,camelname,unidade_id).
+struct_dt_elem_i([ 26,67,97 ],2,basedon,96).
+struct_dt_elem_i([ 26,67,97 ],2,length,8).
+struct_dt_elem_i([ 26,67,97 ],2,decimals,0).
+struct_dt_elem_i([ 26,67,97 ],2,sign,0).
+struct_dt_elem_i([ 26,67,97 ],2,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,67,97 ],2,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,67,97 ],2,collection,'False').
+struct_dt_elem_i([ 26,67,97 ],2,'ExternalName',unidade_id).
+struct_dt_elem_i([ 26,67,97 ],2,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,67,97 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,67,97 ],2,'XmlName','').
+struct_dt_elem_i([ 26,67,97 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,97 ],2,soaptype,'').
+struct_dt_elem_i([ 26,67,97 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,97 ],2,'JsonName','').
+struct_dt_elem_i([ 26,67,97 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,97 ],3,name,'Endereco_id').
+struct_dt_elem_i([ 26,67,97 ],3,camelname,endereco_id).
+struct_dt_elem_i([ 26,67,97 ],3,basedon,96).
+struct_dt_elem_i([ 26,67,97 ],3,length,8).
+struct_dt_elem_i([ 26,67,97 ],3,decimals,0).
+struct_dt_elem_i([ 26,67,97 ],3,sign,0).
+struct_dt_elem_i([ 26,67,97 ],3,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,67,97 ],3,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,67,97 ],3,collection,'False').
+struct_dt_elem_i([ 26,67,97 ],3,'ExternalName',endereco_id).
+struct_dt_elem_i([ 26,67,97 ],3,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,67,97 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,67,97 ],3,'XmlName','').
+struct_dt_elem_i([ 26,67,97 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,97 ],3,soaptype,'').
+struct_dt_elem_i([ 26,67,97 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,97 ],3,'JsonName','').
+struct_dt_elem_i([ 26,67,97 ],3,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').

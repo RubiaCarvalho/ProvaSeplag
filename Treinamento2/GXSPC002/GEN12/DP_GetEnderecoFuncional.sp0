@@ -1,0 +1,373 @@
+spec_i([ mnproc,7,'DP_Get Endereco Funcional','DP_GetEnderecoFuncional',0,por,'18_0_11-185416' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 12,[ [ 12,many ],[ 10,one ] ],[],[],[ [ [ 12,10 ],[ 30,33,42 ] ] ],[ [ [ 12,10 ],[] ] ],[ -42 ],'IEND_FUNCIONAL',[],[] ]).
+ 
+tw_i(2,[ [ 10,[ [ 12,33,33 ] ] ] ]).
+ 
+lwi_i(2,[ [] ]).
+ 
+cond_constraint_i(2,[ [ t(42,2),t(=,10),t('Ds_getenderecofuncional_3_end_funcional_id',23) ],[ 42 ],[ t('.NOT.',8),t('null(',1),t('Ds_getenderecofuncional_3_end_funcional_id',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(33,2),t(=,10),t('Ds_getenderecofuncional_4_unidade_id',23) ],[ 33 ],[ t('.NOT.',8),t('null(',1),t('Ds_getenderecofuncional_4_unidade_id',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(30,2),t(=,10),t('Ds_getenderecofuncional_5_endereco_id',23) ],[ 30 ],[ t('.NOT.',8),t('null(',1),t('Ds_getenderecofuncional_5_endereco_id',23),t(')',4) ],[] ]).
+ 
+ 
+level_option_i(2,server_paging,[ y,[] ]).
+level_option_i(2,lvl_paging,[ [ t('Pagenumber',23) ],[ t('Pagesize',23) ] ]).
+ 
+ta_i(2,[ [ [ 10,30 ],[ 12,33 ],[ 12,42 ] ] ]).
+ 
+las_i(2,[ [ 30,33,42 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'POSTGRESQL_EXTENSIONS','')).
+rule_i(0,datastore(1,'POSTGRESQL_VERSION','8_3')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'DS_READ_REPLICA','No')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','java:/jdbc/treinamento')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','-1')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',admin)).
+rule_i(0,datastore(1,'USER_ID',postgres)).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','5432')).
+rule_i(0,datastore(1,'CS_SERVER',localhost)).
+rule_i(0,datastore(1,'CS_DBNAME',treinamento)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','org.postgresql.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',15)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop(gxtest_ignoreForTestCoverage,'0')).
+rule_i(0,prop('ObjectVisibility','KnowledgeBase')).
+rule_i(0,prop('FullyQualifiedName','DP_GetEnderecoFuncional')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OutputCollectionName','DP_GetEnderecoFuncional')).
+rule_i(0,prop('OutputCollection','0')).
+rule_i(0,prop('OutputSDT',o(26,'SDT_EndFuncional'))).
+rule_i(0,prop(idINFER_SDT,idINFER_STRUCTURE_NO)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Theme',o(102,'Treinamento2'))).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','DP_Get Endereco Funcional')).
+rule_i(0,prop('ObjName','DP_GetEnderecoFuncional')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Atualizar"','5' ]) ],[],[],[])).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'End_funcional_id','Unidade_id','Endereco_id','Pagenumber','Pagesize','Gxm2rootcol' ],[])).
+rule_i(0,parmio([ [ 'End_funcional_id',in ],[ 'Unidade_id',in ],[ 'Endereco_id',in ],[ 'Pagenumber',in ],[ 'Pagesize',in ],[ 'Gxm2rootcol',out ] ])).
+ 
+a_i(1,2,t,12,[],[ [],'IEND_FUNCIONAL',[] ]).
+a_i(2,2,r,10,[],[ [ [ 12,33,33 ] ],'IUNIDADE_ENDERECO',[] ]).
+ 
+v_i(t,i,1,[]).
+v_i(t,o,1,33).
+v_i(t,o,1,42).
+v_i(r,i,2,33).
+v_i(r,o,2,30).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(42,[ end_funcional_id,int,4,0,'ZZZ9',0,end_funcional_id,'',0 ]).
+attri_i(33,[ unidade_id,int,8,0,'ZZZZZZZ9',0,unidade_id,'',0 ]).
+attri_i(30,[ endereco_id,int,8,0,'ZZZZZZZ9',0,endereco_id,'',0 ]).
+attri_i('Ds_getenderecofuncional_5_endereco_id',[ 'Ds_getenderecofuncional_5_endereco_id',int,8,0,'ZZZZZZZ9',0,'Endereco_id','',16 ]).
+attri_i('Ds_getenderecofuncional_4_unidade_id',[ 'Ds_getenderecofuncional_4_unidade_id',int,8,0,'ZZZZZZZ9',0,'Unidade_id','',15 ]).
+attri_i('Ds_getenderecofuncional_3_end_funcional_id',[ 'Ds_getenderecofuncional_3_end_funcional_id',int,4,0,'ZZZ9',0,'End_funcional_id','',14 ]).
+attri_i('Gxm1sdt_endfuncional',[ 'Gxm1sdt_endfuncional',o('SDT_EndFuncional.SDT_EndFuncionalItem'),0,0,'',0,'Gxm1sdt_endfuncional','',12 ]).
+attri_i('Gxm2rootcol',[ 'Gxm2rootcol',o(objectcollection('SDT_EndFuncional.SDT_EndFuncionalItem')),0,0,'',0,'Gxm2rootcol','',11 ]).
+attri_i('Endereco_id',[ endereco_id,int,8,0,'ZZZZZZZ9',0,endereco_id,'',10 ]).
+attri_i('Unidade_id',[ unidade_id,int,8,0,'ZZZZZZZ9',0,unidade_id,'',9 ]).
+attri_i('End_funcional_id',[ end_funcional_id,int,4,0,'ZZZ9',0,end_funcional_id,'',8 ]).
+attri_i('Pagenumber',[ 'PageNumber',int,4,0,'ZZZ9',0,'Page Number','',6 ]).
+attri_i('Pagesize',[ 'PageSize',int,4,0,'ZZZ9',0,'Page Size','',5 ]).
+ 
+table_i(12,[ 'End_Funcional',[ 42,33 ],'End_Funcional','End_Funcional' ]).
+table_i(10,[ unidade_endereco,[ 33,30 ],unidade_endereco,unidade_endereco ]).
+ 
+index_i(12,[ 'IEND_FUNCIONAL',u,[ 42 ],'IEnd_Funcional' ]).
+index_i(10,[ 'IUNIDADE_ENDERECO',u,[ 33 ],'Iunidade_endereco' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(96,[ 'Id' ]).
+ 
+ 
+break_i(2,nvg,1,[ -42 ],[ [ 30,33,42 ],[ 42,33,30 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,3).
+b_group_i(1,2,nvg,2,3,3).
+b_group_i(2,1,lit,0,4,6).
+b_group_i(1,3,lit,0,10,0).
+ 
+b_line_i([ 2,1 ],1,1,cmd,3,[ t('',107,3,0),t('Ds_getenderecofuncional_3_end_funcional_id',23,0,0),t(=,10,0,0),t('End_funcional_id',23,0,94) ]).
+b_line_i([ 2,2 ],1,1,cmd,3,[ t('',107,3,0),t('Ds_getenderecofuncional_4_unidade_id',23,0,0),t(=,10,0,0),t('Unidade_id',23,0,112) ]).
+b_line_i([ 2,3 ],1,1,cmd,3,[ t('',107,3,0),t('Ds_getenderecofuncional_5_endereco_id',23,0,0),t(=,10,0,0),t('Endereco_id',23,0,124) ]).
+b_line_i(3,2,1,cmd,4,[ t('',121,3,0) ]).
+b_line_i([ 3,3 ],2,1,cmd,3,[ t('',107,3,0),t('Gxm1sdt_endfuncional',23,3,0),t(=,10,3,0),t([ 'SDT_EndFuncional.SDT_EndFuncionalItem',[ t('(',0,3,0),t(')',4,3,0) ],n ],46,3,0) ]).
+b_line_i([ 3,4 ],2,1,cmd,3,[ t('',107,3,0),t([ t('Gxm2rootcol',23,3,0),t('add(',1,3,0) ],31,3,0),t('Gxm1sdt_endfuncional',23,3,0),t(')',4,3,0) ]).
+b_line_i(6,2,1,cmd,6,[ t('',107,5,0),t([ t('Gxm1sdt_endfuncional',23,6,0),t('End_funcional_id',3,6,0) ],29,6,0),t(=,10,6,0),t(42,2,6,0) ]).
+b_line_i(7,2,1,cmd,6,[ t('',107,6,0),t([ t('Gxm1sdt_endfuncional',23,6,0),t('Unidade_id',3,6,0) ],29,6,0),t(=,10,6,0),t(33,2,6,0) ]).
+b_line_i(8,2,1,cmd,6,[ t('',107,7,0),t([ t('Gxm1sdt_endfuncional',23,6,0),t('Endereco_id',3,6,0) ],29,6,0),t(=,10,6,0),t(30,2,6,0) ]).
+b_line_i(9,2,1,cmd,6,[ t('',128,8,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(42,1).
+ 
+att_prop_i(2,30,'ExternalName',endereco_id,d).
+att_prop_i(2,30,'ExternalNamespace','Treinamento2',d).
+att_prop_i(2,30,'EmptyAsNull','Yes',d).
+att_prop_i(2,30,idBasedOn,96,d).
+att_prop_i(2,30,'AUTONUMBER','-1',d).
+att_prop_i(2,30,'AUTONUMBER_START','1',d).
+att_prop_i(2,30,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,30,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,30,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,30,'AttRegEx','',d).
+att_prop_i(2,30,'AttValidationFailedMsg','',d).
+att_prop_i(2,30,'DownloadOffline','0',d).
+att_prop_i(2,30,'VarServiceExtName','',d).
+att_prop_i(2,30,'FullName',endereco_id,v).
+att_prop_i(2,33,'ExternalName',unidade_id,d).
+att_prop_i(2,33,'ExternalNamespace','Treinamento2',d).
+att_prop_i(2,33,'EmptyAsNull','Yes',d).
+att_prop_i(2,33,idBasedOn,96,d).
+att_prop_i(2,33,'AUTONUMBER','-1',d).
+att_prop_i(2,33,'AUTONUMBER_START','1',d).
+att_prop_i(2,33,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,33,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,33,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,33,'AttRegEx','',d).
+att_prop_i(2,33,'AttValidationFailedMsg','',d).
+att_prop_i(2,33,'DownloadOffline','0',d).
+att_prop_i(2,33,'VarServiceExtName','',d).
+att_prop_i(2,33,'FullName',unidade_id,v).
+att_prop_i(2,42,'ExternalName',end_funcional_id,d).
+att_prop_i(2,42,'ExternalNamespace','Treinamento2',d).
+att_prop_i(2,42,'EmptyAsNull','Yes',d).
+att_prop_i(2,42,idBasedOn,'',d).
+att_prop_i(2,42,'AUTONUMBER','0',d).
+att_prop_i(2,42,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,42,'AttRegEx','',d).
+att_prop_i(2,42,'AttValidationFailedMsg','',d).
+att_prop_i(2,42,'DownloadOffline','0',d).
+att_prop_i(2,42,'VarServiceExtName','',d).
+att_prop_i(2,42,'FullName',end_funcional_id,v).
+ 
+tbl_prop_i(2,12,'AllDirSuper',[ [ 10,[ 33 ] ] ],v).
+tbl_prop_i(2,10,'DirSubor',[ [ 12,[ 33 ] ] ],v).
+tbl_prop_i(2,12,'DirSuper',[ [ 10,[ 33 ] ] ],v).
+ 
+tbl_att_prop_i(2,12,42,'AllowNulls',n).
+tbl_att_prop_i(2,12,33,'AllowNulls',n).
+tbl_att_prop_i(2,10,33,'AllowNulls',n).
+tbl_att_prop_i(2,10,30,'AllowNulls',n).
+ 
+var_prop_i(2,'End_funcional_id',idBasedOn,'',v).
+var_prop_i(2,'Unidade_id',idBasedOn,'',v).
+var_prop_i(2,'Endereco_id',idBasedOn,'',v).
+var_prop_i(2,'End_funcional_id',idBasedOn,'',v).
+var_prop_i(2,'Unidade_id',idBasedOn,'',v).
+var_prop_i(2,'Endereco_id',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,67,0 ],name,'SDT_EndFuncional').
+struct_dt_i([ 26,67,0 ],namespace,'Treinamento2').
+struct_dt_i([ 26,67,0 ],'ObjName','SDT_EndFuncional').
+struct_dt_i([ 26,67,0 ],'ObjDesc','SDT_End Funcional').
+struct_dt_i([ 26,67,0 ],'ExternalName','SDT_EndFuncional').
+struct_dt_i([ 26,67,0 ],'ExternalNamespace','Treinamento2').
+struct_dt_i([ 26,67,0 ],'JsonInputFormat','JsonInputWrapped').
+struct_dt_i([ 26,67,0 ],collection,'True').
+struct_dt_i([ 26,67,0 ],datatype,[ 26,67,97 ]).
+struct_dt_i([ 26,67,0 ],'CollectionItemName','SDT_EndFuncionalItem').
+struct_dt_i([ 26,67,0 ],'XmlName','').
+struct_dt_i([ 26,67,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,67,0 ],'XmlNamespace','').
+struct_dt_i([ 26,67,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,67,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,67,0 ],'JsonName','').
+struct_dt_i([ 26,67,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,67,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,67,97 ],name,'SDT_EndFuncionalItem').
+struct_dt_i([ 26,67,97 ],namespace,'Treinamento2.SDT_EndFuncional').
+struct_dt_i([ 26,67,0 ],fullname,'SDT_EndFuncional').
+struct_dt_i([ 26,67,97 ],fullname,'SDT_EndFuncional.SDT_EndFuncionalItem').
+struct_dt_i([ 26,67,0 ],camelname,'Sdt_endfuncional').
+struct_dt_i([ 26,67,97 ],camelname,'Sdt_endfuncionalitem').
+ 
+struct_dt_elem_i([ 26,67,97 ],1,name,'End_funcional_id').
+struct_dt_elem_i([ 26,67,97 ],1,camelname,end_funcional_id).
+struct_dt_elem_i([ 26,67,97 ],1,length,4).
+struct_dt_elem_i([ 26,67,97 ],1,decimals,0).
+struct_dt_elem_i([ 26,67,97 ],1,sign,0).
+struct_dt_elem_i([ 26,67,97 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,67,97 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,67,97 ],1,collection,'False').
+struct_dt_elem_i([ 26,67,97 ],1,'ExternalName',end_funcional_id).
+struct_dt_elem_i([ 26,67,97 ],1,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,67,97 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,67,97 ],1,'XmlName','').
+struct_dt_elem_i([ 26,67,97 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,97 ],1,soaptype,'').
+struct_dt_elem_i([ 26,67,97 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,97 ],1,'JsonName','').
+struct_dt_elem_i([ 26,67,97 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,97 ],2,name,'Unidade_id').
+struct_dt_elem_i([ 26,67,97 ],2,camelname,unidade_id).
+struct_dt_elem_i([ 26,67,97 ],2,basedon,96).
+struct_dt_elem_i([ 26,67,97 ],2,length,8).
+struct_dt_elem_i([ 26,67,97 ],2,decimals,0).
+struct_dt_elem_i([ 26,67,97 ],2,sign,0).
+struct_dt_elem_i([ 26,67,97 ],2,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,67,97 ],2,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,67,97 ],2,collection,'False').
+struct_dt_elem_i([ 26,67,97 ],2,'ExternalName',unidade_id).
+struct_dt_elem_i([ 26,67,97 ],2,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,67,97 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,67,97 ],2,'XmlName','').
+struct_dt_elem_i([ 26,67,97 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,97 ],2,soaptype,'').
+struct_dt_elem_i([ 26,67,97 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,97 ],2,'JsonName','').
+struct_dt_elem_i([ 26,67,97 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,97 ],3,name,'Endereco_id').
+struct_dt_elem_i([ 26,67,97 ],3,camelname,endereco_id).
+struct_dt_elem_i([ 26,67,97 ],3,basedon,96).
+struct_dt_elem_i([ 26,67,97 ],3,length,8).
+struct_dt_elem_i([ 26,67,97 ],3,decimals,0).
+struct_dt_elem_i([ 26,67,97 ],3,sign,0).
+struct_dt_elem_i([ 26,67,97 ],3,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,67,97 ],3,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,67,97 ],3,collection,'False').
+struct_dt_elem_i([ 26,67,97 ],3,'ExternalName',endereco_id).
+struct_dt_elem_i([ 26,67,97 ],3,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 26,67,97 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,67,97 ],3,'XmlName','').
+struct_dt_elem_i([ 26,67,97 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,97 ],3,soaptype,'').
+struct_dt_elem_i([ 26,67,97 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,97 ],3,'JsonName','').
+struct_dt_elem_i([ 26,67,97 ],3,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(mnproc,7,'DP_GETENDERECOFUNCIONAL','INTERNAL','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

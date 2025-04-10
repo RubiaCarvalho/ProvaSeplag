@@ -1,0 +1,12 @@
+sdt_map_i(12,lotacao,[ 0,4,0 ]).
+sdt_map_i(12,'SDT_EndFuncional.SDT_EndFuncionalItem',[ 26,67,97 ]).
+sdt_map_i(12,'Sdt_Lotacao.Sdt_LotacaoItem',[ 26,62,92 ]).
+sdt_map_i(12,'Sdt_serv_efet.Sdt_serv_efetItem',[ 26,63,93 ]).
+sdt_map_i(12,'Sdt_serv_temp.Sdt_serv_tempItem',[ 26,64,94 ]).
+sdt_map_i(12,'SDT_ServidorEfetivo.SDT_ServidorEfetivoItem',[ 26,61,91 ]).
+sdt_map_i(12,'SDT_ServLotado.SDT_ServLotadoItem',[ 26,66,96 ]).
+sdt_map_i(12,'Sdt_unidade.Sdt_unidadeItem',[ 26,65,95 ]).
+sdt_map_i(12,servidor_efetivo,[ 0,6,0 ]).
+sdt_map_i(12,servidor_temporario,[ 0,7,0 ]).
+sdt_map_i(12,'ServLotado',[ 0,11,0 ]).
+sdt_map_i(12,'Unidade',[ 0,8,0 ]).

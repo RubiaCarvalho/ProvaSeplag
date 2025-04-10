@@ -1,0 +1,88 @@
+ 
+spec_i([ sdt,[ 0,4,0 ],lotacao,lotacao,0,por,'18_0_11-185416' ]).
+ 
+struct_dt_i([ 0,4,0 ],name,lotacao).
+struct_dt_i([ 0,4,0 ],namespace,'Treinamento2').
+struct_dt_i([ 0,4,0 ],significantName,lotacao).
+struct_dt_i([ 0,4,0 ],'ObjName',lotacao).
+struct_dt_i([ 0,4,0 ],'ObjDesc',lotacao).
+struct_dt_i([ 0,4,0 ],'ExternalName',lotacao).
+struct_dt_i([ 0,4,0 ],'ExternalNamespace','Treinamento2').
+struct_dt_i([ 0,4,0 ],key,[ 5 ]).
+struct_dt_i([ 0,4,0 ],lvl,4).
+struct_dt_i([ 0,4,0 ],fullname,lotacao).
+ 
+struct_dt_elem_i([ 0,4,0 ],1,name,'Lot_id').
+struct_dt_elem_i([ 0,4,0 ],1,camelname,lot_id).
+struct_dt_elem_i([ 0,4,0 ],1,basedon,96).
+struct_dt_elem_i([ 0,4,0 ],1,length,8).
+struct_dt_elem_i([ 0,4,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],1,sign,0).
+struct_dt_elem_i([ 0,4,0 ],1,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 0,4,0 ],1,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],1,attributeid,'5').
+struct_dt_elem_i([ 0,4,0 ],1,'ExternalName',lot_id).
+struct_dt_elem_i([ 0,4,0 ],1,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 0,4,0 ],2,name,'Pes_id').
+struct_dt_elem_i([ 0,4,0 ],2,camelname,pes_id).
+struct_dt_elem_i([ 0,4,0 ],2,basedon,96).
+struct_dt_elem_i([ 0,4,0 ],2,length,8).
+struct_dt_elem_i([ 0,4,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],2,sign,0).
+struct_dt_elem_i([ 0,4,0 ],2,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 0,4,0 ],2,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],2,attributeid,'4').
+struct_dt_elem_i([ 0,4,0 ],2,'ExternalName',pes_id).
+struct_dt_elem_i([ 0,4,0 ],2,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 0,4,0 ],3,name,'Unid_id').
+struct_dt_elem_i([ 0,4,0 ],3,camelname,unid_id).
+struct_dt_elem_i([ 0,4,0 ],3,basedon,96).
+struct_dt_elem_i([ 0,4,0 ],3,length,8).
+struct_dt_elem_i([ 0,4,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],3,sign,0).
+struct_dt_elem_i([ 0,4,0 ],3,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 0,4,0 ],3,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 0,4,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],3,attributeid,'6').
+struct_dt_elem_i([ 0,4,0 ],3,'ExternalName',unid_id).
+struct_dt_elem_i([ 0,4,0 ],3,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 0,4,0 ],4,name,'Lot_data_lotacao').
+struct_dt_elem_i([ 0,4,0 ],4,camelname,lot_data_lotacao).
+struct_dt_elem_i([ 0,4,0 ],4,length,8).
+struct_dt_elem_i([ 0,4,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],4,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,4,0 ],4,pic,'99/99/99').
+struct_dt_elem_i([ 0,4,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],4,attributeid,'17').
+struct_dt_elem_i([ 0,4,0 ],4,'ExternalName',lot_data_lotacao).
+struct_dt_elem_i([ 0,4,0 ],4,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 0,4,0 ],5,name,'Lot_data_remocao').
+struct_dt_elem_i([ 0,4,0 ],5,camelname,lot_data_remocao).
+struct_dt_elem_i([ 0,4,0 ],5,length,8).
+struct_dt_elem_i([ 0,4,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],5,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,4,0 ],5,pic,'99/99/99').
+struct_dt_elem_i([ 0,4,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],5,attributeid,'18').
+struct_dt_elem_i([ 0,4,0 ],5,'ExternalName',lot_data_remocao).
+struct_dt_elem_i([ 0,4,0 ],5,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 0,4,0 ],6,name,'Lot_portaria').
+struct_dt_elem_i([ 0,4,0 ],6,camelname,lot_portaria).
+struct_dt_elem_i([ 0,4,0 ],6,length,100).
+struct_dt_elem_i([ 0,4,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,4,0 ],6,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,4,0 ],6,pic,'').
+struct_dt_elem_i([ 0,4,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,4,0 ],6,attributeid,'19').
+struct_dt_elem_i([ 0,4,0 ],6,'ExternalName',lot_portaria).
+struct_dt_elem_i([ 0,4,0 ],6,'ExternalNamespace','Treinamento2').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').

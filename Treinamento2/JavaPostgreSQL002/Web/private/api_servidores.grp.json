@@ -1,0 +1,50 @@
+{
+"ObjectType":"ServiceGroup",
+"Name":"API_Servidores",
+"BasePath":"API",
+"Mappings":
+[
+{
+"Verb":"POST",
+"Name":"insert_lotacao",
+"Bodystyle":"Wrapped",
+"VariableAlias": [],
+"ServiceMethod":"gxep_insert_lotacao",
+"Implementation":"PInsert_Lotacao",
+"PathRegexp":"insert_lotacao",
+"Path":"insert_lotacao"
+
+},
+{
+"Verb":"PUT",
+"Name":"update_lotacao",
+"Bodystyle":"Wrapped",
+"VariableAlias": [],
+"ServiceMethod":"gxep_update_lotacao",
+"Implementation":"PUpdate_lotacao",
+"PathRegexp":"update_lotacao",
+"Path":"update_lotacao"
+
+},
+{
+"Verb":"DELETE",
+"Name":"delete_lotacao",
+"Bodystyle":"Wrapped",
+"VariableAlias": [],
+"ServiceMethod":"gxep_delete_lotacao",
+"Implementation":"PDelete_Lotacao",
+"PathRegexp":"delete_lotacao",
+"Path":"delete_lotacao"
+
+},
+{
+"Verb":"GET",
+"Name":"get_lotacao",
+"Bodystyle":"Wrapped",
+"VariableAlias": [],
+"ServiceMethod":"gxep_get_lotacao",
+"Implementation":"DP_Get_Lotacao",
+"PathRegexp":"get_lotacao",
+"Path":"get_lotacao"
+
+}]}

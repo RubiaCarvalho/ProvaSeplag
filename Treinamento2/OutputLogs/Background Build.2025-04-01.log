@@ -1,0 +1,48 @@
+2025-04-01 09:33:50,882: INFO  – ========== Specification started ==========
+2025-04-01 09:33:55,553: INFO  –  Specifying PDelete_Serv_Efet (1 of 1) ...
+2025-04-01 09:33:59,664: INFO  – Success: Specification
+2025-04-01 09:34:26,754: INFO  – ========== Specification started ==========
+2025-04-01 09:34:30,011: INFO  –  Specifying PDelete_Serv_Efet (1 of 1) ...
+2025-04-01 09:34:33,356: INFO  – Success: Specification
+2025-04-01 09:35:31,357: INFO  – ========== Specification started ==========
+2025-04-01 09:35:34,557: INFO  –  Specifying PDelete_Serv_Temp (1 of 1) ...
+2025-04-01 09:35:37,966: INFO  – Success: Specification
+2025-04-01 09:35:43,480: INFO  – ========== Specification started ==========
+2025-04-01 09:35:44,467: INFO  –  Specifying PDelete_Unidade (1 of 1) ...
+2025-04-01 09:35:50,069: INFO  – Success: Specification
+2025-04-01 10:34:43,376: INFO  – ========== Specification started ==========
+2025-04-01 10:34:44,381: INFO  –  Specifying PDelete_Lotacao (1 of 1) ...
+2025-04-01 10:34:48,450: INFO  – Failed: Specification
+2025-04-01 10:35:00,458: INFO  – ========== Specification started ==========
+2025-04-01 10:35:00,877: INFO  –  Specifying API (1 of 1) ...
+2025-04-01 10:35:01,948: WARN  – warning spc0046: Variable Lot_id not defined. Same as lot_id assumed. (API 'API', , Details, )
+2025-04-01 10:35:01,999: WARN  – warning spc0046: Variable Se_pes_id not defined. Same as se_pes_id assumed. (API 'API', , Details, )
+2025-04-01 10:35:02,016: WARN  – warning spc0046: Variable St_pes_id not defined. Same as st_pes_id assumed. (API 'API', , Details, )
+2025-04-01 10:35:02,086: WARN  – warning spc0024: Not enough parameters calling DP_Get_Lotacao. (API 'API' Service Source, Line: 18, , Details, )
+2025-04-01 10:35:02,138: WARN  – warning spc0024: Not enough parameters calling DP_Get_Serv_Efet. (API 'API' Service Source, Line: 36, , Details, )
+2025-04-01 10:35:02,185: WARN  – warning spc0024: Not enough parameters calling DP_Get_Serv_Temp. (API 'API' Service Source, Line: 54, , Details, )
+2025-04-01 10:35:02,213: WARN  – warning spc0024: Not enough parameters calling DP_Get_Unidade. (API 'API' Service Source, Line: 72, , Details, )
+2025-04-01 10:35:04,148: INFO  – Success: Specification
+2025-04-01 11:24:58,057: INFO  – ========== Specification started ==========
+2025-04-01 11:25:01,084: INFO  – Success: Specification
+2025-04-01 11:25:25,319: INFO  – ========== Specification started ==========
+2025-04-01 11:25:26,747: INFO  – Success: Specification
+2025-04-01 11:25:29,957: INFO  – ========== Specification started ==========
+2025-04-01 11:25:31,627: INFO  – Success: Specification
+2025-04-01 11:25:45,205: INFO  – ========== Specification started ==========
+2025-04-01 11:25:46,830: INFO  – Success: Specification
+2025-04-01 11:32:43,035: INFO  – ========== Specification started ==========
+2025-04-01 11:32:44,432: INFO  –  Specifying DP_Get_Lotacao (1 of 1) ...
+2025-04-01 11:32:49,224: ERROR – error spc0178: Missing member Lotacao.Sdt_lotacaoitem in SDT  in element starting at row 3. (Data Provider 'DP_Get_Lotacao' Source, Line: 3, , Details, )
+2025-04-01 11:32:49,240: WARN  – warning spc0174: Could not find a proper SDT for root element 'Sdt_Lotacao'. Element should be named 'Lotacao'. (Data Provider 'DP_Get_Lotacao' Source, Line: 1, , Details, )
+2025-04-01 11:33:01,824: INFO  – Failed: Specification
+2025-04-01 11:34:24,166: INFO  – ========== Specification started ==========
+2025-04-01 11:34:24,824: INFO  –  Specifying DP_Get_Lotacao (1 of 1) ...
+2025-04-01 11:34:25,428: ERROR – error spc0178: Missing member Lotacao.Sdt_lotacaoitem in SDT  in element starting at row 3. (Data Provider 'DP_Get_Lotacao' Source, Line: 3, , Details, )
+2025-04-01 11:34:25,429: WARN  – warning spc0174: Could not find a proper SDT for root element 'Sdt_Lotacao'. Element should be named 'Lotacao'. (Data Provider 'DP_Get_Lotacao' Source, Line: 1, , Details, )
+2025-04-01 11:34:26,542: INFO  – Failed: Specification
+2025-04-01 11:53:05,345: INFO  – ========== Specification started ==========
+2025-04-01 11:53:06,456: INFO  –  Specifying DP_Get_Lotacao (1 of 1) ...
+2025-04-01 11:53:07,204: ERROR – error spc0178: Missing member Lotacao.Sdt_lotacaoitem in SDT  in element starting at row 3. (Data Provider 'DP_Get_Lotacao' Source, Line: 3, , Details, )
+2025-04-01 11:53:07,205: WARN  – warning spc0174: Could not find a proper SDT for root element 'Sdt_Lotacao'. Element should be named 'Lotacao'. (Data Provider 'DP_Get_Lotacao' Source, Line: 1, , Details, )
+2025-04-01 11:53:09,357: INFO  – Failed: Specification

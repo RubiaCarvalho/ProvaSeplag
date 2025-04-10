@@ -1,0 +1,54 @@
+ 
+spec_i([ sdt,[ 0,7,0 ],servidor_temporario,servidor_temporario,0,por,'18_0_11-185416' ]).
+ 
+struct_dt_i([ 0,7,0 ],name,servidor_temporario).
+struct_dt_i([ 0,7,0 ],namespace,'Treinamento2').
+struct_dt_i([ 0,7,0 ],significantName,servidor_temporario).
+struct_dt_i([ 0,7,0 ],'ObjName',servidor_temporario).
+struct_dt_i([ 0,7,0 ],'ObjDesc',servidor_temporario).
+struct_dt_i([ 0,7,0 ],'ExternalName',servidor_temporario).
+struct_dt_i([ 0,7,0 ],'ExternalNamespace','Treinamento2').
+struct_dt_i([ 0,7,0 ],key,[ 31 ]).
+struct_dt_i([ 0,7,0 ],lvl,8).
+struct_dt_i([ 0,7,0 ],fullname,servidor_temporario).
+ 
+struct_dt_elem_i([ 0,7,0 ],1,name,'St_pes_id').
+struct_dt_elem_i([ 0,7,0 ],1,camelname,st_pes_id).
+struct_dt_elem_i([ 0,7,0 ],1,basedon,96).
+struct_dt_elem_i([ 0,7,0 ],1,length,8).
+struct_dt_elem_i([ 0,7,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,7,0 ],1,sign,0).
+struct_dt_elem_i([ 0,7,0 ],1,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 0,7,0 ],1,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 0,7,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,7,0 ],1,attributeid,'31').
+struct_dt_elem_i([ 0,7,0 ],1,'ExternalName',st_pes_id).
+struct_dt_elem_i([ 0,7,0 ],1,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 0,7,0 ],2,name,'St_data_admissao').
+struct_dt_elem_i([ 0,7,0 ],2,camelname,st_data_admissao).
+struct_dt_elem_i([ 0,7,0 ],2,length,8).
+struct_dt_elem_i([ 0,7,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,7,0 ],2,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,7,0 ],2,pic,'99/99/99').
+struct_dt_elem_i([ 0,7,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,7,0 ],2,attributeid,'25').
+struct_dt_elem_i([ 0,7,0 ],2,'ExternalName',st_data_admissao).
+struct_dt_elem_i([ 0,7,0 ],2,'ExternalNamespace','Treinamento2').
+struct_dt_elem_i([ 0,7,0 ],3,name,'St_data_demissao').
+struct_dt_elem_i([ 0,7,0 ],3,camelname,st_data_demissao).
+struct_dt_elem_i([ 0,7,0 ],3,length,8).
+struct_dt_elem_i([ 0,7,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,7,0 ],3,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,7,0 ],3,pic,'99/99/99').
+struct_dt_elem_i([ 0,7,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,7,0 ],3,attributeid,'26').
+struct_dt_elem_i([ 0,7,0 ],3,'ExternalName',st_data_demissao).
+struct_dt_elem_i([ 0,7,0 ],3,'ExternalNamespace','Treinamento2').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').
